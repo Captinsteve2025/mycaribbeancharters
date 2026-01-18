@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "NauticEd Prerequisites Checklist | Bareboat Charter Master St. Martin | VIYB",
+  title: "NauticEd Prerequisites Checklist | Bareboat Charter Master St. Martin | My Caribbean Charters",
   description:
     "Complete checklist of required NauticEd online courses before your 6-day practical training in St. Martin. Skipper, Coastal Navigation, Sail Trim, COLREGs, and Anchoring courses required.",
   keywords: [
@@ -18,8 +18,8 @@ export const metadata: Metadata = {
     title: "NauticEd Prerequisites Checklist | Bareboat Charter Master St. Martin",
     description:
       "Required NauticEd online courses before your practical training. Skipper, Coastal Navigation, Sail Trim, COLREGs, and Anchoring.",
-    url: "https://services.virginislandsyachtbroker.com/training/nauticed-prerequisites",
-    siteName: "Virgin Islands Yacht Broker",
+    url: "https://mycaribbeancharters.com/training/nauticed-prerequisites",
+    siteName: "My Caribbean Charters",
     locale: "en_US",
     type: "website",
   },
@@ -28,6 +28,9 @@ export const metadata: Metadata = {
     title: "NauticEd Prerequisites | Bareboat Charter Master Training",
     description:
       "Complete checklist of required NauticEd courses before your 6-day practical training in St. Martin.",
+  },
+  alternates: {
+    canonical: "https://mycaribbeancharters.com/training/nauticed-prerequisites",
   },
 };
 

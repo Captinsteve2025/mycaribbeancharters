@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Offshore Passage Training | Ocean Sailing Courses | VIYB",
+  title: "Offshore Passage Training | Ocean Sailing Courses | My Caribbean Charters",
   description: "Master offshore sailing with professional passage training. Learn ocean navigation, weather routing, and passage planning for blue water cruising adventures.",
   keywords: [
     "offshore sailing course",
@@ -12,13 +12,13 @@ export const metadata: Metadata = {
     "ocean sailing certification",
   ],
   openGraph: {
-    title: "Offshore Passage Training | Ocean Sailing | VIYB",
+    title: "Offshore Passage Training | Ocean Sailing | My Caribbean Charters",
     description: "Master offshore sailing with professional passage training. Ocean navigation, weather routing, and passage planning.",
-    url: "https://services.virginislandsyachtbroker.com/training/offshore-passages",
-    siteName: "Virgin Islands Yacht Broker",
+    url: "https://mycaribbeancharters.com/training/offshore-passages",
+    siteName: "My Caribbean Charters",
     images: [
       {
-        url: "https://services.virginislandsyachtbroker.com/hero/bali-52-sailing.jpg",
+        url: "https://mycaribbeancharters.com/hero/bali-52-sailing.jpg",
         width: 1200,
         height: 630,
         alt: "Offshore passage training - Ocean sailing courses",
@@ -31,10 +31,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Offshore Passage Training | Blue Water Sailing",
     description: "Professional offshore sailing and passage making courses.",
-    images: ["https://services.virginislandsyachtbroker.com/hero/bali-52-sailing.jpg"],
+    images: ["https://mycaribbeancharters.com/hero/bali-52-sailing.jpg"],
   },
   alternates: {
-    canonical: "https://services.virginislandsyachtbroker.com/training/offshore-passages",
+    canonical: "https://mycaribbeancharters.com/training/offshore-passages",
   },
 };
 

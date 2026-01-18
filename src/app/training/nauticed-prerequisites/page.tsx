@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle2, Circle, ExternalLink, Mail, Phone, BookOpen, Laptop, Clock, ArrowLeft, AlertCircle, FileText } from "lucide-react";
+import { CheckCircle2, Circle, ExternalLink, BookOpen, Laptop, Clock, ArrowLeft, AlertCircle, FileText } from "lucide-react";
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";

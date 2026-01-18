@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "NauticEd vs RYA for Catamaran Charter Certification | VIYB",
+  title: "NauticEd vs RYA for Catamaran Charter Certification | My Caribbean Charters",
   description:
     "Compare NauticEd SLC and RYA certifications for bareboat catamaran chartering. Which sailing license is right for your charter goals? Detailed comparison guide.",
   keywords: [
@@ -20,11 +20,11 @@ export const metadata: Metadata = {
     title: "NauticEd vs RYA for Catamaran Charter Certification",
     description:
       "Compare NauticEd SLC and RYA certifications for bareboat catamaran chartering. Find the right sailing license for your charter goals.",
-    url: "https://services.virginislandsyachtbroker.com/training/articles/nauticed-vs-rya-certification",
-    siteName: "Virgin Islands Yacht Broker",
+    url: "https://mycaribbeancharters.com/training/articles/nauticed-vs-rya-certification",
+    siteName: "My Caribbean Charters",
     images: [
       {
-        url: "https://services.virginislandsyachtbroker.com/bali/5-4/5-4-01.jpg",
+        url: "https://mycaribbeancharters.com/bali/5-4/5-4-01.jpg",
         width: 1200,
         height: 630,
         alt: "NauticEd vs RYA certification comparison for catamaran sailing",
@@ -38,10 +38,10 @@ export const metadata: Metadata = {
     title: "NauticEd vs RYA for Catamaran Charter Certification",
     description:
       "Compare NauticEd SLC and RYA certifications. Which is right for bareboat catamaran chartering?",
-    images: ["https://services.virginislandsyachtbroker.com/bali/5-4/5-4-01.jpg"],
+    images: ["https://mycaribbeancharters.com/bali/5-4/5-4-01.jpg"],
   },
   alternates: {
-    canonical: "https://services.virginislandsyachtbroker.com/training/articles/nauticed-vs-rya-certification",
+    canonical: "https://mycaribbeancharters.com/training/articles/nauticed-vs-rya-certification",
   },
 };
 

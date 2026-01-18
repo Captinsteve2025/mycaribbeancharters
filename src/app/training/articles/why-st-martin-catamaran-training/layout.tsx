@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Why St Martin Is Ideal for Advanced Catamaran Training | VIYB",
+  title: "Why St Martin Is Ideal for Advanced Catamaran Training | My Caribbean Charters",
   description:
     "Discover why St Martin offers the perfect conditions for advanced catamaran sailing training. Trade winds, multi-island passages, and international waters for charter-ready skills.",
   keywords: [
@@ -20,11 +20,11 @@ export const metadata: Metadata = {
     title: "Why St Martin Is Ideal for Advanced Catamaran Training",
     description:
       "Trade winds, multi-island passages, and international waters make St Martin the Caribbean's premier destination for serious catamaran sailing education.",
-    url: "https://services.virginislandsyachtbroker.com/training/articles/why-st-martin-catamaran-training",
-    siteName: "Virgin Islands Yacht Broker",
+    url: "https://mycaribbeancharters.com/training/articles/why-st-martin-catamaran-training",
+    siteName: "My Caribbean Charters",
     images: [
       {
-        url: "https://services.virginislandsyachtbroker.com/bali/5-4/5-4-01.jpg",
+        url: "https://mycaribbeancharters.com/bali/5-4/5-4-01.jpg",
         width: 1200,
         height: 630,
         alt: "Catamaran sailing in St Martin Caribbean waters",
@@ -38,10 +38,10 @@ export const metadata: Metadata = {
     title: "Why St Martin Is Ideal for Advanced Catamaran Training",
     description:
       "Perfect trade winds, multi-island passages, and international waters for charter-ready catamaran training.",
-    images: ["https://services.virginislandsyachtbroker.com/bali/5-4/5-4-01.jpg"],
+    images: ["https://mycaribbeancharters.com/bali/5-4/5-4-01.jpg"],
   },
   alternates: {
-    canonical: "https://services.virginislandsyachtbroker.com/training/articles/why-st-martin-catamaran-training",
+    canonical: "https://mycaribbeancharters.com/training/articles/why-st-martin-catamaran-training",
   },
 };
 
