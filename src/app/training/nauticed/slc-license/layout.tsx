@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "SLC International Sailing License | NauticEd | VIYB",
+  title: "SLC International Sailing License | NauticEd | My Caribbean Charters",
   description: "Obtain the SLC (Sailing License Certificate) recognized internationally for bareboat chartering. Official documentation for charter companies worldwide.",
   keywords: [
     "SLC sailing license",
@@ -12,13 +12,13 @@ export const metadata: Metadata = {
     "international sailing credentials",
   ],
   openGraph: {
-    title: "SLC International Sailing License | NauticEd | VIYB",
+    title: "SLC International Sailing License | NauticEd | My Caribbean Charters",
     description: "Obtain the internationally recognized SLC for bareboat chartering. Official documentation accepted worldwide.",
-    url: "https://services.virginislandsyachtbroker.com/training/nauticed/slc-license",
-    siteName: "Virgin Islands Yacht Broker",
+    url: "https://mycaribbeancharters.com/training/nauticed/slc-license",
+    siteName: "My Caribbean Charters",
     images: [
       {
-        url: "https://services.virginislandsyachtbroker.com/hero/day-skipper.jpg",
+        url: "https://mycaribbeancharters.com/hero/day-skipper.jpg",
         width: 1200,
         height: 630,
         alt: "SLC International Sailing License - NauticEd certification",
@@ -31,10 +31,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "SLC International Sailing License | NauticEd",
     description: "Internationally recognized sailing license for bareboat charter.",
-    images: ["https://services.virginislandsyachtbroker.com/hero/day-skipper.jpg"],
+    images: ["https://mycaribbeancharters.com/hero/day-skipper.jpg"],
   },
   alternates: {
-    canonical: "https://services.virginislandsyachtbroker.com/training/nauticed/slc-license",
+    canonical: "https://mycaribbeancharters.com/training/nauticed/slc-license",
   },
 };
 

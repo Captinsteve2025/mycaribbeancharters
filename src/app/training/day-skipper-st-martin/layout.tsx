@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "St Martin Catamaran Sailing Course | NauticEd Charter Certification | VIYB",
+  title: "St Martin Catamaran Sailing Course | NauticEd Charter Certification | My Caribbean Charters",
   description:
     "Advanced St Martin catamaran sailing course with NauticEd certification. Charter-ready training for Caribbean and European catamaran charters. 6-day intensive program with SLC + ICC licensing.",
   keywords: [
@@ -40,11 +40,11 @@ export const metadata: Metadata = {
     title: "St Martin Catamaran Sailing Course | NauticEd Charter Certification",
     description:
       "Advanced St Martin catamaran sailing course with NauticEd certification. Charter-ready training for Caribbean and European catamaran charters. 15% off courses before April 2026.",
-    url: "https://services.virginislandsyachtbroker.com/training/day-skipper-st-martin",
-    siteName: "Virgin Islands Yacht Broker",
+    url: "https://mycaribbeancharters.com/training/day-skipper-st-martin",
+    siteName: "My Caribbean Charters",
     images: [
       {
-        url: "https://services.virginislandsyachtbroker.com/bali/5-4/5-4-01.jpg",
+        url: "https://mycaribbeancharters.com/bali/5-4/5-4-01.jpg",
         width: 1200,
         height: 630,
         alt: "Bali 5.4 Catamaran sailing in St Martin Caribbean waters - NauticEd Training",
@@ -59,11 +59,11 @@ export const metadata: Metadata = {
     description:
       "Advanced catamaran sailing course in St Martin with NauticEd SLC + SLC certification. Charter-ready for Caribbean and European waters.",
     images: [
-      "https://services.virginislandsyachtbroker.com/bali/5-4/5-4-01.jpg",
+      "https://mycaribbeancharters.com/bali/5-4/5-4-01.jpg",
     ],
   },
   alternates: {
-    canonical: "https://services.virginislandsyachtbroker.com/training/day-skipper-st-martin",
+    canonical: "https://mycaribbeancharters.com/training/day-skipper-st-martin",
   },
   robots: {
     index: true,

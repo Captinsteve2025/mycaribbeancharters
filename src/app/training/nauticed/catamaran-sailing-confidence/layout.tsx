@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Catamaran Sailing Confidence Course | NauticEd | VIYB",
+  title: "Catamaran Sailing Confidence Course | NauticEd | My Caribbean Charters",
   description: "Build confidence sailing catamarans with this specialized NauticEd course. Learn catamaran handling, docking, and the unique characteristics of multihull sailing.",
   keywords: [
     "catamaran sailing course",
@@ -12,13 +12,13 @@ export const metadata: Metadata = {
     "catamaran confidence training",
   ],
   openGraph: {
-    title: "Catamaran Sailing Confidence | NauticEd Course | VIYB",
+    title: "Catamaran Sailing Confidence | NauticEd Course | My Caribbean Charters",
     description: "Build confidence sailing catamarans. Learn handling, docking, and multihull sailing characteristics.",
-    url: "https://services.virginislandsyachtbroker.com/training/nauticed/catamaran-sailing-confidence",
-    siteName: "Virgin Islands Yacht Broker",
+    url: "https://mycaribbeancharters.com/training/nauticed/catamaran-sailing-confidence",
+    siteName: "My Caribbean Charters",
     images: [
       {
-        url: "https://services.virginislandsyachtbroker.com/hero/bali-hero.jpg",
+        url: "https://mycaribbeancharters.com/hero/bali-hero.jpg",
         width: 1200,
         height: 630,
         alt: "Catamaran sailing confidence course - Learn multihull sailing",
@@ -31,10 +31,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Catamaran Sailing Confidence | NauticEd",
     description: "Specialized course for catamaran handling and confidence.",
-    images: ["https://services.virginislandsyachtbroker.com/hero/bali-hero.jpg"],
+    images: ["https://mycaribbeancharters.com/hero/bali-hero.jpg"],
   },
   alternates: {
-    canonical: "https://services.virginislandsyachtbroker.com/training/nauticed/catamaran-sailing-confidence",
+    canonical: "https://mycaribbeancharters.com/training/nauticed/catamaran-sailing-confidence",
   },
 };
 

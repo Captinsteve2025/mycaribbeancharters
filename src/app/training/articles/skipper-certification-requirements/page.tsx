@@ -1,29 +1,16 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle2, ArrowRight, ArrowLeft, Award, Globe, BookOpen, Ship, FileCheck, Users, Clock, Phone, Mail } from "lucide-react";
+import { CheckCircle2, ArrowRight, ArrowLeft, Award, Globe, BookOpen, Ship, FileCheck, Users, Clock } from "lucide-react";
 import Link from "next/link";
-import Logo from "@/components/Logo";
-import MobileNav from "@/components/MobileNav";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 
 export default function SkipperCertificationRequirementsPage() {
   return (
     <div className="flex min-h-screen flex-col bg-white">
-      {/* Navigation */}
-      <header className="fixed top-0 z-50 w-full border-b border-border bg-white shadow-sm">
-        <div className="container mx-auto flex h-20 items-center justify-between px-4">
-          <Link href="/">
-            <Logo variant="light" />
-          </Link>
-          <nav className="hidden gap-8 md:flex">
-            <a href="https://virginislandsyachtbroker.com/" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-[#e89d79]">Brokerage</a>
-            <Link href="/bali" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-[#e89d79]">New Bali</Link>
-            <Link href="/training" className="text-sm font-medium uppercase tracking-wide text-[#e89d79]">Training</Link>
-            <Link href="/charter-ownership" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-[#e89d79]">Charter Ownership</Link>
-            <Link href="/contact" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-[#e89d79]">Contact</Link>
-          </nav>
-          <MobileNav currentPage="Training" variant="light" />
-        </div>
-      </header>
+      <Header />
 
       {/* Article Header */}
       <section className="bg-gradient-to-br from-[#2e4b5c] to-[#1a2f3a] py-20 pt-32">
@@ -383,49 +370,7 @@ export default function SkipperCertificationRequirementsPage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-[#061625] py-16 text-white">
-        <div className="container mx-auto px-4">
-          <div className="grid gap-12 md:grid-cols-4">
-            <div>
-              <Logo variant="dark" />
-              <p className="mt-4 leading-relaxed text-white/80">Your trusted partner for yacht sales, training, and charter ownership in the Caribbean</p>
-            </div>
-            <div>
-              <h3 className="mb-4 font-bold uppercase tracking-wide">Quick Links</h3>
-              <ul className="space-y-2 text-white/80">
-                <li><Link href="/bali" className="transition-colors hover:text-[#e89d79]">New Bali Catamarans</Link></li>
-                <li><Link href="/training" className="transition-colors hover:text-[#e89d79]">Sailing Training</Link></li>
-                <li><Link href="/" className="transition-colors hover:text-[#e89d79]">Home</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="mb-4 font-bold uppercase tracking-wide">Training Programs</h3>
-              <ul className="space-y-2 text-white/80">
-                <li><Link href="/training/day-skipper" className="transition-colors hover:text-[#e89d79]">Bareboat Charter Master (BVI)</Link></li>
-                <li><Link href="/training/day-skipper-st-martin" className="transition-colors hover:text-[#e89d79]">Bareboat Charter Master (St. Martin)</Link></li>
-                <li><Link href="/training/offshore-passages" className="transition-colors hover:text-[#e89d79]">Offshore Passages</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="mb-4 font-bold uppercase tracking-wide">Contact Us</h3>
-              <ul className="space-y-3 text-white/80">
-                <li className="flex items-center gap-2">
-                  <Phone className="h-5 w-5 text-[#e89d79]" />
-                  <span>+1 786 246 0809</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <Mail className="h-5 w-5 text-[#e89d79]" />
-                  <span>training@virginislandsyachtbroker.com</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="mt-12 border-t border-white/10 pt-8 text-center text-sm text-white/60">
-            <p>&copy; {new Date().getFullYear()} Virgin Islands Yacht Broker. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
