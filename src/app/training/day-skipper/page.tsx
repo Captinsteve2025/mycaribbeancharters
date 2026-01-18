@@ -119,7 +119,7 @@ export default function DaySkipperPage() {
             sizes="100vw"
             className="object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/30 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
         </div>
         <div className="container relative z-10 mx-auto px-4 pb-8 text-center text-white">
           <Link href="/training" className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-[#e89d79]">
@@ -150,7 +150,7 @@ export default function DaySkipperPage() {
             >
               Reserve Your Spot
             </Button>
-            <Button variant="outline" size="lg" className="border-2 border-white bg-white/20 text-white backdrop-blur-sm hover:bg-white hover:text-[#061625]" asChild>
+            <Button variant="outline" size="lg" className="border-2 border-white bg-[#061625]/80 text-white backdrop-blur-sm hover:bg-white hover:text-[#061625]" asChild>
               <a href="#schedule">View Schedule</a>
             </Button>
           </div>
@@ -163,14 +163,14 @@ export default function DaySkipperPage() {
           <div className="mx-auto grid max-w-5xl gap-6 md:grid-cols-4">
             <Card className="border-2 border-[#061625]/10">
               <CardContent className="p-6 text-center">
-                <Calendar className="mx-auto mb-3 h-8 w-8 text-[#e89d79]" />
+                <Calendar className="mx-auto mb-3 h-8 w-8 text-[#061625]" />
                 <h3 className="mb-1 text-lg font-bold text-[#061625]">Duration</h3>
                 <p className="text-muted-foreground">7 Days</p>
               </CardContent>
             </Card>
             <Card className="border-2 border-[#061625]/10">
               <CardContent className="p-6 text-center">
-                <MapPin className="mx-auto mb-3 h-8 w-8 text-[#e89d79]" />
+                <MapPin className="mx-auto mb-3 h-8 w-8 text-[#061625]" />
                 <h3 className="mb-1 text-lg font-bold text-[#061625]">Location</h3>
                 <p className="text-muted-foreground">Sopers Hole, Tortola</p>
               </CardContent>
@@ -184,7 +184,7 @@ export default function DaySkipperPage() {
             </Card>
             <Card className="border-2 border-[#061625]/10">
               <CardContent className="p-6 text-center">
-                <Award className="mx-auto mb-3 h-8 w-8 text-[#e89d79]" />
+                <Award className="mx-auto mb-3 h-8 w-8 text-[#061625]" />
                 <h3 className="mb-1 text-lg font-bold text-[#061625]">Outcome</h3>
                 <p className="text-muted-foreground">NauticEd SLC</p>
               </CardContent>

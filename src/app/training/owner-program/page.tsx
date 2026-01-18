@@ -53,13 +53,13 @@ export default function OwnerProgramPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-3 sm:gap-4">
             <Button variant="gold" size="lg" onClick={() => setDialogOpen(true)}>Request Program Details</Button>
-            <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-[#061625]" asChild>
+            <Button variant="outline" size="lg" className="border-2 border-white bg-[#061625]/80 text-white backdrop-blur-sm hover:bg-white hover:text-[#061625]" asChild>
               <a href="#phases">View Program Phases</a>
             </Button>
             <Button
               variant="outline"
               size="lg"
-              className="border-white text-white hover:bg-white hover:text-[#061625]"
+              className="border-2 border-white bg-[#061625]/80 text-white backdrop-blur-sm hover:bg-white hover:text-[#061625]"
               onClick={() => generateOwnerTransitionPDF()}
             >
               <Download className="mr-2 h-5 w-5" />
@@ -75,28 +75,28 @@ export default function OwnerProgramPage() {
           <div className="mx-auto grid max-w-5xl gap-6 md:grid-cols-4">
             <Card className="border-2 border-[#061625]/10">
               <CardContent className="p-6 text-center">
-                <Calendar className="mx-auto mb-3 h-8 w-8 text-[#e89d79]" />
+                <Calendar className="mx-auto mb-3 h-8 w-8 text-[#061625]" />
                 <h3 className="mb-1 text-lg font-bold text-[#061625]">Duration</h3>
                 <p className="text-muted-foreground">7-10 Days (Modular)</p>
               </CardContent>
             </Card>
             <Card className="border-2 border-[#061625]/10">
               <CardContent className="p-6 text-center">
-                <MapPin className="mx-auto mb-3 h-8 w-8 text-[#e89d79]" />
+                <MapPin className="mx-auto mb-3 h-8 w-8 text-[#061625]" />
                 <h3 className="mb-1 text-lg font-bold text-[#061625]">Location</h3>
                 <p className="text-muted-foreground">British Virgin Islands</p>
               </CardContent>
             </Card>
             <Card className="border-2 border-[#061625]/10">
               <CardContent className="p-6 text-center">
-                <Ship className="mx-auto mb-3 h-8 w-8 text-[#e89d79]" />
+                <Ship className="mx-auto mb-3 h-8 w-8 text-[#061625]" />
                 <h3 className="mb-1 text-lg font-bold text-[#061625]">Vessel</h3>
                 <p className="text-muted-foreground">Your Cat or Charter-Spec</p>
               </CardContent>
             </Card>
             <Card className="border-2 border-[#061625]/10">
               <CardContent className="p-6 text-center">
-                <Handshake className="mx-auto mb-3 h-8 w-8 text-[#e89d79]" />
+                <Handshake className="mx-auto mb-3 h-8 w-8 text-[#061625]" />
                 <h3 className="mb-1 text-lg font-bold text-[#061625]">Outcome</h3>
                 <p className="text-muted-foreground">Charter-Ready Transition</p>
               </CardContent>
@@ -453,21 +453,21 @@ export default function OwnerProgramPage() {
             <div className="grid gap-6 sm:grid-cols-3">
               <Card className="border-2 border-[#061625]/10">
                 <CardContent className="p-6 text-center">
-                  <Settings className="mx-auto mb-3 h-8 w-8 text-[#e89d79]" />
+                  <Settings className="mx-auto mb-3 h-8 w-8 text-[#061625]" />
                   <h4 className="mb-2 font-bold text-[#061625]">Risk Reduction</h4>
                   <p className="text-sm text-muted-foreground">Protect your investment from day one</p>
                 </CardContent>
               </Card>
               <Card className="border-2 border-[#061625]/10">
                 <CardContent className="p-6 text-center">
-                  <FileText className="mx-auto mb-3 h-8 w-8 text-[#e89d79]" />
+                  <FileText className="mx-auto mb-3 h-8 w-8 text-[#061625]" />
                   <h4 className="mb-2 font-bold text-[#061625]">Compliance Ready</h4>
                   <p className="text-sm text-muted-foreground">Meet insurance and regulatory requirements</p>
                 </CardContent>
               </Card>
               <Card className="border-2 border-[#061625]/10">
                 <CardContent className="p-6 text-center">
-                  <Handshake className="mx-auto mb-3 h-8 w-8 text-[#e89d79]" />
+                  <Handshake className="mx-auto mb-3 h-8 w-8 text-[#061625]" />
                   <h4 className="mb-2 font-bold text-[#061625]">Smooth Handover</h4>
                   <p className="text-sm text-muted-foreground">Professional transition to charter ops</p>
                 </CardContent>

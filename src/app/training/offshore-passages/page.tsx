@@ -106,7 +106,7 @@ export default function OffshorePassagesPage() {
             <Button variant="gold" size="lg" asChild>
               <a href="#dates">View Upcoming Dates</a>
             </Button>
-            <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-[#061625]" asChild>
+            <Button variant="outline" size="lg" className="border-2 border-white bg-[#061625]/80 text-white backdrop-blur-sm hover:bg-white hover:text-[#061625]" asChild>
               <a href="#itinerary">See Itineraries</a>
             </Button>
           </div>
