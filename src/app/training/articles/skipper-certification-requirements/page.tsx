@@ -1,0 +1,431 @@
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { CheckCircle2, ArrowRight, ArrowLeft, Award, Globe, BookOpen, Ship, FileCheck, Users, Clock, Phone, Mail } from "lucide-react";
+import Link from "next/link";
+import Logo from "@/components/Logo";
+import MobileNav from "@/components/MobileNav";
+
+export default function SkipperCertificationRequirementsPage() {
+  return (
+    <div className="flex min-h-screen flex-col bg-white">
+      {/* Navigation */}
+      <header className="fixed top-0 z-50 w-full border-b border-border bg-white shadow-sm">
+        <div className="container mx-auto flex h-20 items-center justify-between px-4">
+          <Link href="/">
+            <Logo variant="light" />
+          </Link>
+          <nav className="hidden gap-8 md:flex">
+            <a href="https://virginislandsyachtbroker.com/" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-secondary">Brokerage</a>
+            <Link href="/bali" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-secondary">New Bali</Link>
+            <Link href="/training" className="text-sm font-medium uppercase tracking-wide text-secondary">Training</Link>
+            <Link href="/charter-ownership" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-secondary">Charter Ownership</Link>
+            <Link href="/contact" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-secondary">Contact</Link>
+          </nav>
+          <MobileNav currentPage="Training" variant="light" />
+        </div>
+      </header>
+
+      {/* Article Header */}
+      <section className="bg-gradient-to-br from-[#2e4b5c] to-[#1a2f3a] py-20 pt-32">
+        <div className="container mx-auto px-4">
+          <Link href="/training/day-skipper-st-martin" className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-[#47c0d5]">
+            <ArrowLeft className="h-4 w-4" />
+            <span className="text-sm font-medium">Back to St. Martin Training</span>
+          </Link>
+          <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-[#47c0d5]/20 px-4 py-2">
+            <BookOpen className="h-4 w-4 text-[#47c0d5]" />
+            <span className="text-sm font-medium text-[#47c0d5]">Charter Guide</span>
+          </div>
+          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl">
+            What Charter Companies Look for in Skipper Certification
+          </h1>
+          <p className="max-w-3xl text-xl text-white/80">
+            Before handing over the keys to a €500,000+ yacht, charter companies need to verify you have the skills to bring it back safely. Here's exactly what they look for.
+          </p>
+        </div>
+      </section>
+
+      {/* Article Content */}
+      <article className="py-16">
+        <div className="container mx-auto px-4">
+          <div className="mx-auto max-w-4xl">
+            {/* Introduction */}
+            <section className="mb-12">
+              <p className="mb-6 text-lg leading-relaxed text-muted-foreground">
+                Charter companies operate in a high-liability environment. A single grounding, collision, or rescue operation can cost tens of thousands of dollars — not to mention reputational damage. That's why every reputable charter company has a vetting process for skippers.
+              </p>
+              <p className="mb-6 text-lg leading-relaxed text-muted-foreground">
+                Understanding what charter companies actually look for can help you prepare the right credentials and avoid disappointment when booking your dream charter.
+              </p>
+            </section>
+
+            {/* The Three Pillars */}
+            <section className="mb-12">
+              <h2 className="mb-8 text-3xl font-bold text-primary">The Three Pillars of Charter Approval</h2>
+
+              <div className="space-y-6">
+                {/* Pillar 1: Formal Certification */}
+                <Card className="border-2 border-secondary">
+                  <CardContent className="p-8">
+                    <div className="flex items-start gap-4">
+                      <div className="flex h-12 w-12 items-center justify-center rounded-full bg-secondary text-xl font-bold text-primary">1</div>
+                      <div>
+                        <h3 className="mb-3 text-2xl font-bold text-primary">Formal Certification</h3>
+                        <p className="mb-4 text-muted-foreground">
+                          The first thing charter companies check is whether you hold a recognized sailing qualification. The level required depends on the boat size, location, and company policy.
+                        </p>
+
+                        <div className="mb-4 rounded-lg bg-muted p-4">
+                          <h4 className="mb-3 font-bold text-primary">Accepted Certifications:</h4>
+                          <ul className="grid gap-2 md:grid-cols-2">
+                            <li className="flex items-center gap-2 text-sm text-muted-foreground">
+                              <CheckCircle2 className="h-4 w-4 text-green-600" />
+                              <span>NauticEd SLC / Bareboat Charter Master</span>
+                            </li>
+                            <li className="flex items-center gap-2 text-sm text-muted-foreground">
+                              <CheckCircle2 className="h-4 w-4 text-green-600" />
+                              <span>NauticEd Bareboat Charter Master / Coastal Skipper</span>
+                            </li>
+                            <li className="flex items-center gap-2 text-sm text-muted-foreground">
+                              <CheckCircle2 className="h-4 w-4 text-green-600" />
+                              <span>ASA 104 / 114 Catamaran</span>
+                            </li>
+                            <li className="flex items-center gap-2 text-sm text-muted-foreground">
+                              <CheckCircle2 className="h-4 w-4 text-green-600" />
+                              <span>SLC (Sailing License and Credentials)</span>
+                            </li>
+                            <li className="flex items-center gap-2 text-sm text-muted-foreground">
+                              <CheckCircle2 className="h-4 w-4 text-green-600" />
+                              <span>IYT Bareboat Skipper</span>
+                            </li>
+                            <li className="flex items-center gap-2 text-sm text-muted-foreground">
+                              <CheckCircle2 className="h-4 w-4 text-green-600" />
+                              <span>National licenses (varies by country)</span>
+                            </li>
+                          </ul>
+                        </div>
+
+                        <div className="rounded-lg border-l-4 border-secondary bg-secondary/10 p-4">
+                          <p className="text-sm text-muted-foreground">
+                            <strong className="text-primary">Pro Tip:</strong> For European charters, ICC is often mandatory. NauticEd SLC includes ICC eligibility when combined with practical assessment.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                {/* Pillar 2: Documented Experience */}
+                <Card className="border-2 border-primary/10">
+                  <CardContent className="p-8">
+                    <div className="flex items-start gap-4">
+                      <div className="flex h-12 w-12 items-center justify-center rounded-full bg-secondary text-xl font-bold text-primary">2</div>
+                      <div>
+                        <h3 className="mb-3 text-2xl font-bold text-primary">Documented Experience</h3>
+                        <p className="mb-4 text-muted-foreground">
+                          Certification alone isn't enough. Charter companies want to see that you've actually been sailing — and recently. Your sailing resume or logbook proves your practical experience.
+                        </p>
+
+                        <div className="mb-4 grid gap-4 md:grid-cols-2">
+                          <div className="rounded-lg bg-muted p-4">
+                            <h4 className="mb-2 font-bold text-primary">Minimum Requirements (Typical)</h4>
+                            <ul className="space-y-2 text-sm text-muted-foreground">
+                              <li className="flex items-center gap-2">
+                                <Clock className="h-4 w-4 text-secondary" />
+                                <span>50+ hours logged sailing time</span>
+                              </li>
+                              <li className="flex items-center gap-2">
+                                <Ship className="h-4 w-4 text-secondary" />
+                                <span>Experience on similar-sized vessel</span>
+                              </li>
+                              <li className="flex items-center gap-2">
+                                <Globe className="h-4 w-4 text-secondary" />
+                                <span>Recent sailing (within 12-24 months)</span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div className="rounded-lg bg-muted p-4">
+                            <h4 className="mb-2 font-bold text-primary">What Strengthens Your Resume</h4>
+                            <ul className="space-y-2 text-sm text-muted-foreground">
+                              <li className="flex items-center gap-2">
+                                <CheckCircle2 className="h-4 w-4 text-green-600" />
+                                <span>Night sailing experience</span>
+                              </li>
+                              <li className="flex items-center gap-2">
+                                <CheckCircle2 className="h-4 w-4 text-green-600" />
+                                <span>Offshore passages (50+ NM)</span>
+                              </li>
+                              <li className="flex items-center gap-2">
+                                <CheckCircle2 className="h-4 w-4 text-green-600" />
+                                <span>Catamaran-specific experience</span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div className="rounded-lg border-l-4 border-[#47c0d5] bg-[#47c0d5]/10 p-4">
+                          <p className="text-sm text-muted-foreground">
+                            <strong className="text-primary">NauticEd Advantage:</strong> The NauticEd digital logbook automatically builds your sailing resume as you complete courses and log trips. Charter companies can verify your credentials online instantly.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                {/* Pillar 3: Vessel-Specific Competence */}
+                <Card className="border-2 border-primary/10">
+                  <CardContent className="p-8">
+                    <div className="flex items-start gap-4">
+                      <div className="flex h-12 w-12 items-center justify-center rounded-full bg-secondary text-xl font-bold text-primary">3</div>
+                      <div>
+                        <h3 className="mb-3 text-2xl font-bold text-primary">Vessel-Specific Competence</h3>
+                        <p className="mb-4 text-muted-foreground">
+                          Chartering a 50ft catamaran is very different from sailing a 30ft monohull. Companies want assurance you can handle the specific type of vessel you're booking.
+                        </p>
+
+                        <div className="mb-4 rounded-lg bg-muted p-4">
+                          <h4 className="mb-3 font-bold text-primary">Key Considerations:</h4>
+                          <ul className="space-y-2 text-muted-foreground">
+                            <li className="flex items-start gap-2">
+                              <Ship className="mt-0.5 h-4 w-4 text-secondary" />
+                              <div>
+                                <span className="font-medium text-primary">Monohull vs. Catamaran:</span>
+                                <span> If chartering a cat, previous catamaran experience is strongly preferred or required</span>
+                              </div>
+                            </li>
+                            <li className="flex items-start gap-2">
+                              <Ship className="mt-0.5 h-4 w-4 text-secondary" />
+                              <div>
+                                <span className="font-medium text-primary">Vessel Size:</span>
+                                <span> Experience should be on vessels within 10-15ft of the charter boat</span>
+                              </div>
+                            </li>
+                            <li className="flex items-start gap-2">
+                              <Ship className="mt-0.5 h-4 w-4 text-secondary" />
+                              <div>
+                                <span className="font-medium text-primary">Systems Knowledge:</span>
+                                <span> Understanding of modern yacht systems (watermakers, generators, electronics)</span>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+
+                        <div className="rounded-lg border-l-4 border-secondary bg-secondary/10 p-4">
+                          <p className="text-sm text-muted-foreground">
+                            <strong className="text-primary">Our Advantage:</strong> Training on Bali catamarans (40-55ft) means you'll have logged experience on the exact type of vessel most commonly chartered in the Caribbean and Mediterranean.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+            </section>
+
+            {/* What Happens If You Don't Qualify */}
+            <section className="mb-12">
+              <h2 className="mb-6 text-3xl font-bold text-primary">What If You Don't Meet Requirements?</h2>
+              <p className="mb-6 text-muted-foreground">
+                If your credentials fall short of a charter company's requirements, you typically have three options:
+              </p>
+
+              <div className="space-y-4">
+                <Card className="border-2 border-primary/10">
+                  <CardContent className="p-6">
+                    <div className="flex items-start gap-4">
+                      <Users className="h-6 w-6 text-secondary" />
+                      <div>
+                        <h3 className="mb-2 font-bold text-primary">Option 1: Hire a Professional Skipper</h3>
+                        <p className="text-sm text-muted-foreground">
+                          Most charter companies offer licensed skippers for hire. This adds €150-300/day but gives you an experienced captain. Great for learning while chartering.
+                        </p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card className="border-2 border-primary/10">
+                  <CardContent className="p-6">
+                    <div className="flex items-start gap-4">
+                      <FileCheck className="h-6 w-6 text-secondary" />
+                      <div>
+                        <h3 className="mb-2 font-bold text-primary">Option 2: Complete a Checkout Sail</h3>
+                        <p className="text-sm text-muted-foreground">
+                          Some companies offer an extended checkout (half-day with instructor) to verify your skills before approving bareboat charter. Additional fee typically €100-200.
+                        </p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card className="border-2 border-secondary">
+                  <CardContent className="p-6">
+                    <div className="flex items-start gap-4">
+                      <Award className="h-6 w-6 text-secondary" />
+                      <div>
+                        <h3 className="mb-2 font-bold text-primary">Option 3: Get Certified First (Recommended)</h3>
+                        <p className="text-sm text-muted-foreground">
+                          The most cost-effective long-term solution. A 6-day training program gives you certification, logged experience, and vessel-specific competence — qualifying you for bareboat charters worldwide.
+                        </p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+            </section>
+
+            {/* Charter Company Examples */}
+            <section className="mb-12">
+              <h2 className="mb-6 text-3xl font-bold text-primary">What Major Charter Companies Require</h2>
+
+              <div className="overflow-hidden rounded-xl border-2 border-primary/10">
+                <table className="w-full">
+                  <thead className="bg-primary text-white">
+                    <tr>
+                      <th className="p-4 text-left font-bold">Company Type</th>
+                      <th className="p-4 text-left font-bold">Typical Requirements</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-gray-100">
+                    <tr className="bg-white">
+                      <td className="p-4 font-medium text-primary">Major Fleets<br /><span className="text-xs text-muted-foreground">(Sunsail, Moorings, Dream Yacht)</span></td>
+                      <td className="p-4 text-muted-foreground">
+                        <ul className="space-y-1 text-sm">
+                          <li>• Recognized certification (RYA/ASA/NauticEd/IYT)</li>
+                          <li>• Sailing resume with 50+ hours</li>
+                          <li>• Experience on similar vessel size</li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr className="bg-muted/30">
+                      <td className="p-4 font-medium text-primary">European Bases<br /><span className="text-xs text-muted-foreground">(Croatia, Greece, Spain)</span></td>
+                      <td className="p-4 text-muted-foreground">
+                        <ul className="space-y-1 text-sm">
+                          <li>• ICC or equivalent mandatory</li>
+                          <li>• VHF radio license (Croatia)</li>
+                          <li>• Recent sailing experience</li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr className="bg-white">
+                      <td className="p-4 font-medium text-primary">Caribbean Bases<br /><span className="text-xs text-muted-foreground">(BVI, St. Martin, Grenada)</span></td>
+                      <td className="p-4 text-muted-foreground">
+                        <ul className="space-y-1 text-sm">
+                          <li>• Certification or comprehensive resume</li>
+                          <li>• More flexible than Europe</li>
+                          <li>• Catamaran experience for cats</li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr className="bg-muted/30">
+                      <td className="p-4 font-medium text-primary">Premium Yachts<br /><span className="text-xs text-muted-foreground">(50ft+ / High-value vessels)</span></td>
+                      <td className="p-4 text-muted-foreground">
+                        <ul className="space-y-1 text-sm">
+                          <li>• Higher certification (Coastal Skipper level)</li>
+                          <li>• Extensive logged experience</li>
+                          <li>• May require references</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+
+            {/* CTA */}
+            <section className="rounded-xl bg-gradient-to-br from-[#2e4b5c] to-[#1a2f3a] p-8 text-center">
+              <h2 className="mb-4 text-2xl font-bold text-white">Get Charter-Ready Certified</h2>
+              <p className="mb-6 text-white/80">
+                Our 6-day St. Martin program delivers NauticEd SLC + SLC certification with logged catamaran experience on Bali 40-55ft vessels.
+              </p>
+              <div className="flex flex-wrap justify-center gap-4">
+                <Button asChild className="bg-[#47c0d5] text-[#2e4b5c] hover:bg-[#5dd0e5]">
+                  <Link href="/training/day-skipper-st-martin">
+                    View St. Martin Program
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Link>
+                </Button>
+                <Button variant="outline" className="border-white/30 text-white hover:bg-white/10" asChild>
+                  <Link href="/training/nauticed-prerequisites">View Prerequisites</Link>
+                </Button>
+              </div>
+            </section>
+          </div>
+        </div>
+      </article>
+
+      {/* Related Articles */}
+      <section className="bg-muted py-16">
+        <div className="container mx-auto px-4">
+          <div className="mb-6 text-center">
+            <Link href="/training" className="text-secondary hover:underline">← Back to All Training Programs</Link>
+          </div>
+          <h2 className="mb-8 text-center text-2xl font-bold text-primary">Related Articles</h2>
+          <div className="mx-auto grid max-w-4xl gap-6 md:grid-cols-2">
+            <Link href="/training/articles/catamaran-charter-certification-europe" className="group">
+              <Card className="h-full border-2 border-primary/10 transition-all group-hover:border-secondary">
+                <CardContent className="p-6">
+                  <h3 className="mb-2 font-bold text-primary group-hover:text-secondary">How to Get Certified to Charter a Catamaran in Europe</h3>
+                  <p className="text-sm text-muted-foreground">Complete guide to SLC certification for European waters.</p>
+                </CardContent>
+              </Card>
+            </Link>
+            <Link href="/training/articles/nauticed-vs-rya-certification" className="group">
+              <Card className="h-full border-2 border-primary/10 transition-all group-hover:border-secondary">
+                <CardContent className="p-6">
+                  <h3 className="mb-2 font-bold text-primary group-hover:text-secondary">NauticEd vs RYA for Catamaran Charter Certification</h3>
+                  <p className="text-sm text-muted-foreground">Compare certification options and find the right path for your goals.</p>
+                </CardContent>
+              </Card>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-primary py-16 text-white">
+        <div className="container mx-auto px-4">
+          <div className="grid gap-12 md:grid-cols-4">
+            <div>
+              <Logo variant="dark" />
+              <p className="mt-4 leading-relaxed text-white/80">Your trusted partner for yacht sales, training, and charter ownership in the Caribbean</p>
+            </div>
+            <div>
+              <h3 className="mb-4 font-bold uppercase tracking-wide">Quick Links</h3>
+              <ul className="space-y-2 text-white/80">
+                <li><Link href="/bali" className="transition-colors hover:text-secondary">New Bali Catamarans</Link></li>
+                <li><Link href="/training" className="transition-colors hover:text-secondary">Sailing Training</Link></li>
+                <li><Link href="/" className="transition-colors hover:text-secondary">Home</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="mb-4 font-bold uppercase tracking-wide">Training Programs</h3>
+              <ul className="space-y-2 text-white/80">
+                <li><Link href="/training/day-skipper" className="transition-colors hover:text-secondary">Bareboat Charter Master (BVI)</Link></li>
+                <li><Link href="/training/day-skipper-st-martin" className="transition-colors hover:text-secondary">Bareboat Charter Master (St. Martin)</Link></li>
+                <li><Link href="/training/offshore-passages" className="transition-colors hover:text-secondary">Offshore Passages</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="mb-4 font-bold uppercase tracking-wide">Contact Us</h3>
+              <ul className="space-y-3 text-white/80">
+                <li className="flex items-center gap-2">
+                  <Phone className="h-5 w-5 text-secondary" />
+                  <span>+1 786 246 0809</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <Mail className="h-5 w-5 text-secondary" />
+                  <span>training@virginislandsyachtbroker.com</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="mt-12 border-t border-white/10 pt-8 text-center text-sm text-white/60">
+            <p>&copy; {new Date().getFullYear()} Virgin Islands Yacht Broker. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}

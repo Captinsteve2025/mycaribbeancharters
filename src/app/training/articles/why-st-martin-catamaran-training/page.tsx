@@ -1,0 +1,337 @@
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { CheckCircle2, ArrowRight, ArrowLeft, Wind, Anchor, Globe, Navigation, BookOpen, Phone, Mail } from "lucide-react";
+import Link from "next/link";
+import Image from "next/image";
+import Logo from "@/components/Logo";
+import MobileNav from "@/components/MobileNav";
+
+export default function WhyStMartinTrainingPage() {
+  return (
+    <div className="flex min-h-screen flex-col bg-white">
+      {/* Navigation */}
+      <header className="fixed top-0 z-50 w-full border-b border-border bg-white shadow-sm">
+        <div className="container mx-auto flex h-20 items-center justify-between px-4">
+          <Link href="/">
+            <Logo variant="light" />
+          </Link>
+          <nav className="hidden gap-8 md:flex">
+            <a href="https://virginislandsyachtbroker.com/" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-secondary">Brokerage</a>
+            <Link href="/bali" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-secondary">New Bali</Link>
+            <Link href="/training" className="text-sm font-medium uppercase tracking-wide text-secondary">Training</Link>
+            <Link href="/charter-ownership" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-secondary">Charter Ownership</Link>
+            <Link href="/contact" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-secondary">Contact</Link>
+          </nav>
+          <MobileNav currentPage="Training" variant="light" />
+        </div>
+      </header>
+
+      {/* Article Header */}
+      <section className="relative min-h-[50vh] bg-gradient-to-br from-[#2e4b5c] to-[#1a2f3a] py-20 pt-32">
+        <div className="absolute inset-0 z-0 opacity-30">
+          <Image
+            src="https://ugc.same-assets.com/WDsL9bhNshN4nvwScjcDQQxg6p1qRPft.webp"
+            alt="Catamaran sailing in St Martin waters"
+            fill
+            className="object-cover"
+          />
+        </div>
+        <div className="container relative z-10 mx-auto px-4">
+          <Link href="/training/day-skipper-st-martin" className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-[#47c0d5]">
+            <ArrowLeft className="h-4 w-4" />
+            <span className="text-sm font-medium">Back to St. Martin Training</span>
+          </Link>
+          <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-[#47c0d5]/20 px-4 py-2">
+            <BookOpen className="h-4 w-4 text-[#47c0d5]" />
+            <span className="text-sm font-medium text-[#47c0d5]">Destination Guide</span>
+          </div>
+          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl">
+            Why St Martin Is the Ideal Place for Advanced Catamaran Training
+          </h1>
+          <p className="max-w-3xl text-xl text-white/80">
+            From consistent trade winds to multi-nation island hopping, discover what makes St. Martin the Caribbean's premier destination for serious sailing education.
+          </p>
+        </div>
+      </section>
+
+      {/* Article Content */}
+      <article className="py-16">
+        <div className="container mx-auto px-4">
+          <div className="mx-auto max-w-4xl">
+            {/* Introduction */}
+            <section className="mb-12">
+              <p className="mb-6 text-lg leading-relaxed text-muted-foreground">
+                When choosing a location for advanced catamaran training, the conditions matter as much as the curriculum. St. Martin offers a unique combination of geographic, meteorological, and logistical advantages that make it the ideal training ground for aspiring charter skippers.
+              </p>
+              <p className="mb-6 text-lg leading-relaxed text-muted-foreground">
+                Unlike sheltered training environments, St. Martin puts you in real offshore sailing conditions from day one — the same conditions you'll encounter when chartering in the Mediterranean, Caribbean, or further afield.
+              </p>
+            </section>
+
+            {/* Key Advantages */}
+            <section className="mb-12">
+              <h2 className="mb-8 text-3xl font-bold text-primary">What Makes St. Martin Special</h2>
+
+              <div className="space-y-8">
+                {/* Trade Winds */}
+                <Card className="border-2 border-secondary">
+                  <CardContent className="p-8">
+                    <div className="flex items-start gap-4">
+                      <Wind className="h-10 w-10 text-secondary" />
+                      <div>
+                        <h3 className="mb-3 text-2xl font-bold text-primary">Consistent Trade Winds</h3>
+                        <p className="mb-4 text-muted-foreground">
+                          The Caribbean trade winds blow reliably from the east at 15-25 knots, providing perfect training conditions year-round. You'll learn to sail in real wind — not the light, variable conditions that plague many training destinations.
+                        </p>
+                        <ul className="space-y-2 text-sm text-muted-foreground">
+                          <li className="flex items-center gap-2">
+                            <CheckCircle2 className="h-4 w-4 text-secondary" />
+                            <span>Consistent easterly winds 15-25 knots</span>
+                          </li>
+                          <li className="flex items-center gap-2">
+                            <CheckCircle2 className="h-4 w-4 text-secondary" />
+                            <span>Year-round sailing season</span>
+                          </li>
+                          <li className="flex items-center gap-2">
+                            <CheckCircle2 className="h-4 w-4 text-secondary" />
+                            <span>Build real offshore confidence</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                {/* Multi-Island Passages */}
+                <Card className="border-2 border-primary/10">
+                  <CardContent className="p-8">
+                    <div className="flex items-start gap-4">
+                      <Navigation className="h-10 w-10 text-secondary" />
+                      <div>
+                        <h3 className="mb-3 text-2xl font-bold text-primary">Multi-Island Offshore Passages</h3>
+                        <p className="mb-4 text-muted-foreground">
+                          Unlike single-island training locations, St. Martin sits at the heart of a multi-island cruising ground. Within our 6-day program, you'll make genuine offshore passages to Anguilla (British) and St. Barts (French).
+                        </p>
+                        <ul className="space-y-2 text-sm text-muted-foreground">
+                          <li className="flex items-center gap-2">
+                            <CheckCircle2 className="h-4 w-4 text-secondary" />
+                            <span>15-25 nautical mile open water passages</span>
+                          </li>
+                          <li className="flex items-center gap-2">
+                            <CheckCircle2 className="h-4 w-4 text-secondary" />
+                            <span>Navigate between three different nations</span>
+                          </li>
+                          <li className="flex items-center gap-2">
+                            <CheckCircle2 className="h-4 w-4 text-secondary" />
+                            <span>Experience varied cruising environments</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                {/* International Experience */}
+                <Card className="border-2 border-primary/10">
+                  <CardContent className="p-8">
+                    <div className="flex items-start gap-4">
+                      <Globe className="h-10 w-10 text-secondary" />
+                      <div>
+                        <h3 className="mb-3 text-2xl font-bold text-primary">International Border Crossings</h3>
+                        <p className="mb-4 text-muted-foreground">
+                          One of the most valuable skills for international chartering is clearing customs and immigration. St. Martin training involves crossing between French, Dutch, and British territories — practicing the exact procedures you'll use chartering in Europe.
+                        </p>
+                        <ul className="space-y-2 text-sm text-muted-foreground">
+                          <li className="flex items-center gap-2">
+                            <CheckCircle2 className="h-4 w-4 text-secondary" />
+                            <span>French St. Martin / Dutch Sint Maarten</span>
+                          </li>
+                          <li className="flex items-center gap-2">
+                            <CheckCircle2 className="h-4 w-4 text-secondary" />
+                            <span>British Anguilla clearance procedures</span>
+                          </li>
+                          <li className="flex items-center gap-2">
+                            <CheckCircle2 className="h-4 w-4 text-secondary" />
+                            <span>French St. Barts port clearance</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                {/* World-Class Cruising */}
+                <Card className="border-2 border-primary/10">
+                  <CardContent className="p-8">
+                    <div className="flex items-start gap-4">
+                      <Anchor className="h-10 w-10 text-secondary" />
+                      <div>
+                        <h3 className="mb-3 text-2xl font-bold text-primary">Diverse Anchorages & Marinas</h3>
+                        <p className="mb-4 text-muted-foreground">
+                          From the protected Simpson Bay Lagoon to the challenging anchorages of St. Barts, you'll experience the full spectrum of mooring environments. Practice stern-to Mediterranean-style docking, mooring ball pickups, and exposed anchorage management.
+                        </p>
+                        <ul className="space-y-2 text-sm text-muted-foreground">
+                          <li className="flex items-center gap-2">
+                            <CheckCircle2 className="h-4 w-4 text-secondary" />
+                            <span>Protected lagoon training base</span>
+                          </li>
+                          <li className="flex items-center gap-2">
+                            <CheckCircle2 className="h-4 w-4 text-secondary" />
+                            <span>Med-style stern-to practice</span>
+                          </li>
+                          <li className="flex items-center gap-2">
+                            <CheckCircle2 className="h-4 w-4 text-secondary" />
+                            <span>Exposed anchorage assessment</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+            </section>
+
+            {/* Training Route */}
+            <section className="mb-12">
+              <h2 className="mb-6 text-3xl font-bold text-primary">Our Training Route</h2>
+              <p className="mb-6 text-muted-foreground">
+                Over 6 days, you'll sail a circuit covering approximately 120-180 nautical miles:
+              </p>
+
+              <div className="mb-8 rounded-xl bg-muted p-6">
+                <ol className="space-y-4">
+                  <li className="flex items-start gap-4">
+                    <span className="flex h-8 w-8 items-center justify-center rounded-full bg-secondary font-bold text-primary">1</span>
+                    <div>
+                      <span className="font-bold text-primary">Simpson Bay Lagoon</span>
+                      <span className="text-muted-foreground"> — Protected base for close-quarters training</span>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-4">
+                    <span className="flex h-8 w-8 items-center justify-center rounded-full bg-secondary font-bold text-primary">2</span>
+                    <div>
+                      <span className="font-bold text-primary">Anguilla</span>
+                      <span className="text-muted-foreground"> — 20nm offshore passage, British customs clearance</span>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-4">
+                    <span className="flex h-8 w-8 items-center justify-center rounded-full bg-secondary font-bold text-primary">3</span>
+                    <div>
+                      <span className="font-bold text-primary">St. Barts</span>
+                      <span className="text-muted-foreground"> — Challenging pilotage, French port procedures</span>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-4">
+                    <span className="flex h-8 w-8 items-center justify-center rounded-full bg-secondary font-bold text-primary">4</span>
+                    <div>
+                      <span className="font-bold text-primary">Tintamarre</span>
+                      <span className="text-muted-foreground"> — Remote anchorage, emergency drill practice</span>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-4">
+                    <span className="flex h-8 w-8 items-center justify-center rounded-full bg-secondary font-bold text-primary">5</span>
+                    <div>
+                      <span className="font-bold text-primary">Return to Simpson Bay</span>
+                      <span className="text-muted-foreground"> — Final assessment and certification</span>
+                    </div>
+                  </li>
+                </ol>
+              </div>
+            </section>
+
+            {/* CTA */}
+            <section className="rounded-xl bg-gradient-to-br from-[#2e4b5c] to-[#1a2f3a] p-8 text-center">
+              <h2 className="mb-4 text-2xl font-bold text-white">Experience St. Martin Training</h2>
+              <p className="mb-6 text-white/80">
+                6-day intensive catamaran program with NauticEd SLC + SLC certification
+              </p>
+              <div className="flex flex-wrap justify-center gap-4">
+                <Button asChild className="bg-[#47c0d5] text-[#2e4b5c] hover:bg-[#5dd0e5]">
+                  <Link href="/training/day-skipper-st-martin">
+                    View Program Details
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Link>
+                </Button>
+                <Button variant="outline" className="border-white/30 text-white hover:bg-white/10" asChild>
+                  <Link href="/training/day-skipper-st-martin#dates">See Course Dates</Link>
+                </Button>
+              </div>
+            </section>
+          </div>
+        </div>
+      </article>
+
+      {/* Related Articles */}
+      <section className="bg-muted py-16">
+        <div className="container mx-auto px-4">
+          <div className="mb-6 text-center">
+            <Link href="/training" className="text-secondary hover:underline">← Back to All Training Programs</Link>
+          </div>
+          <h2 className="mb-8 text-center text-2xl font-bold text-primary">Related Articles</h2>
+          <div className="mx-auto grid max-w-4xl gap-6 md:grid-cols-2">
+            <Link href="/training/articles/catamaran-charter-certification-europe" className="group">
+              <Card className="h-full border-2 border-primary/10 transition-all group-hover:border-secondary">
+                <CardContent className="p-6">
+                  <h3 className="mb-2 font-bold text-primary group-hover:text-secondary">How to Get Certified to Charter a Catamaran in Europe</h3>
+                  <p className="text-sm text-muted-foreground">Complete guide to SLC certification requirements for European waters.</p>
+                </CardContent>
+              </Card>
+            </Link>
+            <Link href="/training/articles/skipper-certification-requirements" className="group">
+              <Card className="h-full border-2 border-primary/10 transition-all group-hover:border-secondary">
+                <CardContent className="p-6">
+                  <h3 className="mb-2 font-bold text-primary group-hover:text-secondary">What Charter Companies Look for in Skipper Certification</h3>
+                  <p className="text-sm text-muted-foreground">Understand what credentials you need to book your first bareboat charter.</p>
+                </CardContent>
+              </Card>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-primary py-16 text-white">
+        <div className="container mx-auto px-4">
+          <div className="grid gap-12 md:grid-cols-4">
+            <div>
+              <Logo variant="dark" />
+              <p className="mt-4 leading-relaxed text-white/80">Your trusted partner for yacht sales, training, and charter ownership in the Caribbean</p>
+            </div>
+            <div>
+              <h3 className="mb-4 font-bold uppercase tracking-wide">Quick Links</h3>
+              <ul className="space-y-2 text-white/80">
+                <li><Link href="/bali" className="transition-colors hover:text-secondary">New Bali Catamarans</Link></li>
+                <li><Link href="/training" className="transition-colors hover:text-secondary">Sailing Training</Link></li>
+                <li><Link href="/" className="transition-colors hover:text-secondary">Home</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="mb-4 font-bold uppercase tracking-wide">Training Programs</h3>
+              <ul className="space-y-2 text-white/80">
+                <li><Link href="/training/day-skipper" className="transition-colors hover:text-secondary">Bareboat Charter Master (BVI)</Link></li>
+                <li><Link href="/training/day-skipper-st-martin" className="transition-colors hover:text-secondary">Bareboat Charter Master (St. Martin)</Link></li>
+                <li><Link href="/training/offshore-passages" className="transition-colors hover:text-secondary">Offshore Passages</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="mb-4 font-bold uppercase tracking-wide">Contact Us</h3>
+              <ul className="space-y-3 text-white/80">
+                <li className="flex items-center gap-2">
+                  <Phone className="h-5 w-5 text-secondary" />
+                  <span>+1 786 246 0809</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <Mail className="h-5 w-5 text-secondary" />
+                  <span>training@virginislandsyachtbroker.com</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="mt-12 border-t border-white/10 pt-8 text-center text-sm text-white/60">
+            <p>&copy; {new Date().getFullYear()} Virgin Islands Yacht Broker. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}
