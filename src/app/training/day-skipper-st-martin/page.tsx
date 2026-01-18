@@ -204,12 +204,13 @@ export default function DaySkipperStMartinPage() {
             <div className="grid items-center gap-12 lg:grid-cols-2">
               <div className="relative h-80 overflow-hidden rounded-xl shadow-xl lg:h-[450px]">
                 <Image
-                  src="https://ugc.same-assets.com/MquMMbulR6Zl3izgPgpjIi7LUUbQ2MSO.jpeg"
-                  alt="Bali 5.2 Catamaran sailing in turquoise Caribbean waters"
+                  src="https://ext.same-assets.com/1596285160/3706870644.jpeg"
+                  alt="Bali Catamaran sailing in turquoise Caribbean waters"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
                   loading="lazy"
+                  unoptimized
                 />
               </div>
               <div>
@@ -220,9 +221,11 @@ export default function DaySkipperStMartinPage() {
                   sail offshore passages to Anguilla and St. Barts in charter-realistic operating environments.
                 </p>
 
-                <div className="mb-8 rounded-xl border-2 border-[#e89d79] bg-[#e89d79]/5 p-6">
+                <div className="mb-8 rounded-xl border-2 border-[#e89d79] bg-orange-50 p-6">
                   <div className="flex items-start gap-4">
-                    <Globe className="mt-1 h-8 w-8 flex-shrink-0 text-[#e89d79]" />
+                    <div className="mt-1 flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-[#e89d79]/20">
+                      <Globe className="h-6 w-6 text-[#e89d79]" />
+                    </div>
                     <div>
                       <h3 className="mb-2 text-xl font-bold text-[#061625]">NauticEd Partnership</h3>
                       <p className="text-muted-foreground">
