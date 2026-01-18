@@ -73,18 +73,18 @@ export default function CaptainRankPage() {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-4xl">
-            <h2 className="mb-6 text-center text-4xl font-bold text-primary">What You'll Achieve</h2>
+            <h2 className="mb-6 text-center text-4xl font-bold text-[#061625]">What You'll Achieve</h2>
             <p className="mb-12 text-center text-lg text-muted-foreground">
               Captain Rank represents the highest level of sailing competence recognized by NauticEd.
               It requires extensive experience, knowledge, and demonstrated skill.
             </p>
             <div className="grid gap-6 md:grid-cols-2">
-              <Card className="border-2 border-primary/10">
+              <Card className="border-2 border-[#061625]/10">
                 <CardContent className="p-6">
                   <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#e89d79]/10">
                     <Laptop className="h-6 w-6 text-[#e89d79]" />
                   </div>
-                  <h3 className="mb-3 text-xl font-bold text-primary">Advanced Theory</h3>
+                  <h3 className="mb-3 text-xl font-bold text-[#061625]">Advanced Theory</h3>
                   <ul className="space-y-2 text-muted-foreground">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="mt-0.5 h-4 w-4 flex-shrink-0 text-[#e89d79]" />
@@ -109,12 +109,12 @@ export default function CaptainRankPage() {
                   </ul>
                 </CardContent>
               </Card>
-              <Card className="border-2 border-primary/10">
+              <Card className="border-2 border-[#061625]/10">
                 <CardContent className="p-6">
                   <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#e89d79]/10">
                     <Ship className="h-6 w-6 text-[#e89d79]" />
                   </div>
-                  <h3 className="mb-3 text-xl font-bold text-primary">Experience Requirements</h3>
+                  <h3 className="mb-3 text-xl font-bold text-[#061625]">Experience Requirements</h3>
                   <ul className="space-y-2 text-muted-foreground">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="mt-0.5 h-4 w-4 flex-shrink-0 text-[#e89d79]" />
@@ -146,14 +146,14 @@ export default function CaptainRankPage() {
       {/* Benefits */}
       <section className="bg-muted py-20">
         <div className="container mx-auto px-4">
-          <h2 className="mb-12 text-center text-4xl font-bold text-primary">Why Captain Rank?</h2>
+          <h2 className="mb-12 text-center text-4xl font-bold text-[#061625]">Why Captain Rank?</h2>
           <div className="grid gap-8 md:grid-cols-3">
             <Card className="border-0 shadow-lg">
               <CardContent className="p-8 text-center">
                 <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[#e89d79]/10">
                   <Globe className="h-8 w-8 text-[#e89d79]" />
                 </div>
-                <h3 className="mb-3 text-xl font-bold text-primary">Offshore Capable</h3>
+                <h3 className="mb-3 text-xl font-bold text-[#061625]">Offshore Capable</h3>
                 <p className="text-muted-foreground">
                   Demonstrate your ability to plan and execute ocean passages with confidence.
                 </p>
@@ -164,7 +164,7 @@ export default function CaptainRankPage() {
                 <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[#e89d79]/10">
                   <Award className="h-8 w-8 text-[#e89d79]" />
                 </div>
-                <h3 className="mb-3 text-xl font-bold text-primary">Professional Recognition</h3>
+                <h3 className="mb-3 text-xl font-bold text-[#061625]">Professional Recognition</h3>
                 <p className="text-muted-foreground">
                   The highest NauticEd rank, recognized by charter companies and insurers worldwide.
                 </p>
@@ -175,7 +175,7 @@ export default function CaptainRankPage() {
                 <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[#e89d79]/10">
                   <Anchor className="h-8 w-8 text-[#e89d79]" />
                 </div>
-                <h3 className="mb-3 text-xl font-bold text-primary">Ownership Ready</h3>
+                <h3 className="mb-3 text-xl font-bold text-[#061625]">Ownership Ready</h3>
                 <p className="text-muted-foreground">
                   Complete preparation for yacht ownership and extended cruising.
                 </p>
@@ -199,7 +199,7 @@ export default function CaptainRankPage() {
               />
             </div>
             <div>
-              <h2 className="mb-6 text-3xl font-bold text-primary">Build Your Miles with MCC</h2>
+              <h2 className="mb-6 text-3xl font-bold text-[#061625]">Build Your Miles with MCC</h2>
               <p className="mb-6 text-lg text-muted-foreground">
                 Our 10-day Caribbean Offshore Passage programs are the perfect way to accumulate
                 the miles needed for Captain Rank while gaining real offshore experience.
@@ -247,26 +247,26 @@ export default function CaptainRankPage() {
                 <form className="space-y-6">
                   <div className="grid gap-6 md:grid-cols-2">
                     <div>
-                      <label className="mb-2 block text-sm font-medium text-primary">First Name *</label>
+                      <label className="mb-2 block text-sm font-medium text-[#061625]">First Name *</label>
                       <input type="text" required placeholder="John" className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm" />
                     </div>
                     <div>
-                      <label className="mb-2 block text-sm font-medium text-primary">Last Name *</label>
+                      <label className="mb-2 block text-sm font-medium text-[#061625]">Last Name *</label>
                       <input type="text" required placeholder="Smith" className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm" />
                     </div>
                   </div>
                   <div className="grid gap-6 md:grid-cols-2">
                     <div>
-                      <label className="mb-2 block text-sm font-medium text-primary">Email *</label>
+                      <label className="mb-2 block text-sm font-medium text-[#061625]">Email *</label>
                       <input type="email" required placeholder="john@example.com" className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm" />
                     </div>
                     <div>
-                      <label className="mb-2 block text-sm font-medium text-primary">Phone</label>
+                      <label className="mb-2 block text-sm font-medium text-[#061625]">Phone</label>
                       <input type="tel" placeholder="+1 (555) 123-4567" className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm" />
                     </div>
                   </div>
                   <div>
-                    <label className="mb-2 block text-sm font-medium text-primary">Current Logged Miles</label>
+                    <label className="mb-2 block text-sm font-medium text-[#061625]">Current Logged Miles</label>
                     <select className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm">
                       <option value="">Select approximate miles</option>
                       <option value="0-250">0-250 NM</option>
@@ -276,11 +276,11 @@ export default function CaptainRankPage() {
                     </select>
                   </div>
                   <div>
-                    <label className="mb-2 block text-sm font-medium text-primary">Current Certifications</label>
+                    <label className="mb-2 block text-sm font-medium text-[#061625]">Current Certifications</label>
                     <input type="text" placeholder="e.g., Bareboat Charter Master, Competent Crew" className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm" />
                   </div>
                   <div>
-                    <label className="mb-2 block text-sm font-medium text-primary">Message</label>
+                    <label className="mb-2 block text-sm font-medium text-[#061625]">Message</label>
                     <textarea rows={4} placeholder="Tell us about your sailing experience and goals..." className="flex w-full rounded-[10px] border border-input bg-background px-4 py-3 text-sm" />
                   </div>
                   <input type="hidden" name="certification" value="captain-rank" />
@@ -308,31 +308,31 @@ export default function CaptainRankPage() {
       {/* Certification Pathway */}
       <section className="py-20">
         <div className="container mx-auto px-4">
-          <h2 className="mb-8 text-center text-3xl font-bold text-primary">Certification Pathway</h2>
+          <h2 className="mb-8 text-center text-3xl font-bold text-[#061625]">Certification Pathway</h2>
           <div className="grid gap-6 md:grid-cols-4">
             <Link href="/training/nauticed/catamaran-sailing-confidence" className="group">
-              <Card className="h-full border-2 border-primary/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
+              <Card className="h-full border-2 border-[#061625]/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
                 <CardContent className="p-6">
                   <span className="text-xs text-muted-foreground">Foundation</span>
-                  <h3 className="mb-2 font-bold text-primary group-hover:text-[#e89d79]">Catamaran Sailing Confidence</h3>
+                  <h3 className="mb-2 font-bold text-[#061625] group-hover:text-[#e89d79]">Catamaran Sailing Confidence</h3>
                   <p className="text-sm text-muted-foreground">Master cat handling</p>
                 </CardContent>
               </Card>
             </Link>
             <Link href="/training/nauticed/skipper-large-powerboat" className="group">
-              <Card className="h-full border-2 border-primary/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
+              <Card className="h-full border-2 border-[#061625]/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
                 <CardContent className="p-6">
                   <span className="text-xs text-muted-foreground">Step 2</span>
-                  <h3 className="mb-2 font-bold text-primary group-hover:text-[#e89d79]">Skipper Large Powerboat</h3>
+                  <h3 className="mb-2 font-bold text-[#061625] group-hover:text-[#e89d79]">Skipper Large Powerboat</h3>
                   <p className="text-sm text-muted-foreground">Powerboats 27ft+</p>
                 </CardContent>
               </Card>
             </Link>
             <Link href="/training/nauticed/bareboat-charter-master" className="group">
-              <Card className="h-full border-2 border-primary/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
+              <Card className="h-full border-2 border-[#061625]/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
                 <CardContent className="p-6">
                   <span className="text-xs text-muted-foreground">Step 3</span>
-                  <h3 className="mb-2 font-bold text-primary group-hover:text-[#e89d79]">Bareboat Charter Master</h3>
+                  <h3 className="mb-2 font-bold text-[#061625] group-hover:text-[#e89d79]">Bareboat Charter Master</h3>
                   <p className="text-sm text-muted-foreground">Charter worldwide</p>
                 </CardContent>
               </Card>

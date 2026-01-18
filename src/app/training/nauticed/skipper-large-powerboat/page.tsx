@@ -81,7 +81,7 @@ export default function SkipperLargePowerboatPage() {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-4xl">
-            <h2 className="mb-6 text-center text-4xl font-bold text-primary">The Gold Standard in Powerboat Training</h2>
+            <h2 className="mb-6 text-center text-4xl font-bold text-[#061625]">The Gold Standard in Powerboat Training</h2>
             <p className="mb-8 text-center text-lg text-muted-foreground">
               This advanced powerboat course is designed to the highest level of professional boating education
               under the American National Standards and exceeding internationally recognized benchmarks.
@@ -98,14 +98,14 @@ export default function SkipperLargePowerboatPage() {
       <section className="bg-muted py-20">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-5xl">
-            <h2 className="mb-12 text-center text-4xl font-bold text-primary">What You'll Learn</h2>
+            <h2 className="mb-12 text-center text-4xl font-bold text-[#061625]">What You'll Learn</h2>
             <div className="grid gap-6 md:grid-cols-3">
-              <Card className="border-2 border-primary/10">
+              <Card className="border-2 border-[#061625]/10">
                 <CardContent className="p-6">
                   <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#e89d79]/10">
                     <Ship className="h-6 w-6 text-[#e89d79]" />
                   </div>
-                  <h3 className="mb-3 text-lg font-bold text-primary">Boat Operations</h3>
+                  <h3 className="mb-3 text-lg font-bold text-[#061625]">Boat Operations</h3>
                   <ul className="space-y-2 text-sm text-muted-foreground">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="mt-0.5 h-4 w-4 flex-shrink-0 text-[#e89d79]" />
@@ -126,12 +126,12 @@ export default function SkipperLargePowerboatPage() {
                   </ul>
                 </CardContent>
               </Card>
-              <Card className="border-2 border-primary/10">
+              <Card className="border-2 border-[#061625]/10">
                 <CardContent className="p-6">
                   <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#e89d79]/10">
                     <Gauge className="h-6 w-6 text-[#e89d79]" />
                   </div>
-                  <h3 className="mb-3 text-lg font-bold text-primary">Systems & Mechanics</h3>
+                  <h3 className="mb-3 text-lg font-bold text-[#061625]">Systems & Mechanics</h3>
                   <ul className="space-y-2 text-sm text-muted-foreground">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="mt-0.5 h-4 w-4 flex-shrink-0 text-[#e89d79]" />
@@ -152,12 +152,12 @@ export default function SkipperLargePowerboatPage() {
                   </ul>
                 </CardContent>
               </Card>
-              <Card className="border-2 border-primary/10">
+              <Card className="border-2 border-[#061625]/10">
                 <CardContent className="p-6">
                   <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#e89d79]/10">
                     <Anchor className="h-6 w-6 text-[#e89d79]" />
                   </div>
-                  <h3 className="mb-3 text-lg font-bold text-primary">Maneuvering & Docking</h3>
+                  <h3 className="mb-3 text-lg font-bold text-[#061625]">Maneuvering & Docking</h3>
                   <ul className="space-y-2 text-sm text-muted-foreground">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="mt-0.5 h-4 w-4 flex-shrink-0 text-[#e89d79]" />
@@ -178,12 +178,12 @@ export default function SkipperLargePowerboatPage() {
                   </ul>
                 </CardContent>
               </Card>
-              <Card className="border-2 border-primary/10">
+              <Card className="border-2 border-[#061625]/10">
                 <CardContent className="p-6">
                   <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#e89d79]/10">
                     <Navigation className="h-6 w-6 text-[#e89d79]" />
                   </div>
-                  <h3 className="mb-3 text-lg font-bold text-primary">Navigation & Planning</h3>
+                  <h3 className="mb-3 text-lg font-bold text-[#061625]">Navigation & Planning</h3>
                   <ul className="space-y-2 text-sm text-muted-foreground">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="mt-0.5 h-4 w-4 flex-shrink-0 text-[#e89d79]" />
@@ -204,12 +204,12 @@ export default function SkipperLargePowerboatPage() {
                   </ul>
                 </CardContent>
               </Card>
-              <Card className="border-2 border-primary/10">
+              <Card className="border-2 border-[#061625]/10">
                 <CardContent className="p-6">
                   <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#e89d79]/10">
                     <Award className="h-6 w-6 text-[#e89d79]" />
                   </div>
-                  <h3 className="mb-3 text-lg font-bold text-primary">Safety & Emergency</h3>
+                  <h3 className="mb-3 text-lg font-bold text-[#061625]">Safety & Emergency</h3>
                   <ul className="space-y-2 text-sm text-muted-foreground">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="mt-0.5 h-4 w-4 flex-shrink-0 text-[#e89d79]" />
@@ -230,12 +230,12 @@ export default function SkipperLargePowerboatPage() {
                   </ul>
                 </CardContent>
               </Card>
-              <Card className="border-2 border-primary/10">
+              <Card className="border-2 border-[#061625]/10">
                 <CardContent className="p-6">
                   <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#e89d79]/10">
                     <Laptop className="h-6 w-6 text-[#e89d79]" />
                   </div>
-                  <h3 className="mb-3 text-lg font-bold text-primary">Course Features</h3>
+                  <h3 className="mb-3 text-lg font-bold text-[#061625]">Course Features</h3>
                   <ul className="space-y-2 text-sm text-muted-foreground">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="mt-0.5 h-4 w-4 flex-shrink-0 text-[#e89d79]" />
@@ -263,14 +263,14 @@ export default function SkipperLargePowerboatPage() {
       {/* Who Is This For */}
       <section className="py-20">
         <div className="container mx-auto px-4">
-          <h2 className="mb-12 text-center text-4xl font-bold text-primary">Is This Course Right For You?</h2>
+          <h2 className="mb-12 text-center text-4xl font-bold text-[#061625]">Is This Course Right For You?</h2>
           <div className="grid gap-8 md:grid-cols-3 max-w-4xl mx-auto">
             <Card className="border-0 shadow-lg">
               <CardContent className="p-8 text-center">
                 <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[#e89d79]/10">
                   <Ship className="h-8 w-8 text-[#e89d79]" />
                 </div>
-                <h3 className="mb-3 text-xl font-bold text-primary">New Large Boat Owners</h3>
+                <h3 className="mb-3 text-xl font-bold text-[#061625]">New Large Boat Owners</h3>
                 <p className="text-muted-foreground">
                   Perfect for new large boat owners wanting professional-grade training.
                 </p>
@@ -281,7 +281,7 @@ export default function SkipperLargePowerboatPage() {
                 <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[#e89d79]/10">
                   <Navigation className="h-8 w-8 text-[#e89d79]" />
                 </div>
-                <h3 className="mb-3 text-xl font-bold text-primary">Charter Powerboaters</h3>
+                <h3 className="mb-3 text-xl font-bold text-[#061625]">Charter Powerboaters</h3>
                 <p className="text-muted-foreground">
                   Ideal for those planning to charter powerboats in coastal waters.
                 </p>
@@ -292,7 +292,7 @@ export default function SkipperLargePowerboatPage() {
                 <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[#e89d79]/10">
                   <Award className="h-8 w-8 text-[#e89d79]" />
                 </div>
-                <h3 className="mb-3 text-xl font-bold text-primary">Skill Upgraders</h3>
+                <h3 className="mb-3 text-xl font-bold text-[#061625]">Skill Upgraders</h3>
                 <p className="text-muted-foreground">
                   Designed for coastal skippers upgrading their skills and competence.
                 </p>
@@ -337,37 +337,37 @@ export default function SkipperLargePowerboatPage() {
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-2xl">
             <div className="mb-12 text-center">
-              <h2 className="mb-4 text-4xl font-bold text-primary">Start Your Certification</h2>
+              <h2 className="mb-4 text-4xl font-bold text-[#061625]">Start Your Certification</h2>
               <p className="text-lg text-muted-foreground">
                 Request more information about the Skipper Large Powerboat certification
                 and practical training opportunities.
               </p>
             </div>
-            <Card className="border-2 border-primary/10 shadow-xl">
+            <Card className="border-2 border-[#061625]/10 shadow-xl">
               <CardContent className="p-8">
                 <form className="space-y-6">
                   <div className="grid gap-6 md:grid-cols-2">
                     <div>
-                      <label className="mb-2 block text-sm font-medium text-primary">First Name *</label>
+                      <label className="mb-2 block text-sm font-medium text-[#061625]">First Name *</label>
                       <input type="text" required placeholder="John" className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm" />
                     </div>
                     <div>
-                      <label className="mb-2 block text-sm font-medium text-primary">Last Name *</label>
+                      <label className="mb-2 block text-sm font-medium text-[#061625]">Last Name *</label>
                       <input type="text" required placeholder="Smith" className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm" />
                     </div>
                   </div>
                   <div className="grid gap-6 md:grid-cols-2">
                     <div>
-                      <label className="mb-2 block text-sm font-medium text-primary">Email *</label>
+                      <label className="mb-2 block text-sm font-medium text-[#061625]">Email *</label>
                       <input type="email" required placeholder="john@example.com" className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm" />
                     </div>
                     <div>
-                      <label className="mb-2 block text-sm font-medium text-primary">Phone</label>
+                      <label className="mb-2 block text-sm font-medium text-[#061625]">Phone</label>
                       <input type="tel" placeholder="+1 (555) 123-4567" className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm" />
                     </div>
                   </div>
                   <div>
-                    <label className="mb-2 block text-sm font-medium text-primary">Current Boating Experience</label>
+                    <label className="mb-2 block text-sm font-medium text-[#061625]">Current Boating Experience</label>
                     <select className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm">
                       <option value="">Select your experience level</option>
                       <option value="beginner">Beginner - New to powerboating</option>
@@ -377,7 +377,7 @@ export default function SkipperLargePowerboatPage() {
                     </select>
                   </div>
                   <div>
-                    <label className="mb-2 block text-sm font-medium text-primary">Boat Size Interest</label>
+                    <label className="mb-2 block text-sm font-medium text-[#061625]">Boat Size Interest</label>
                     <select className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm">
                       <option value="">Select boat size</option>
                       <option value="27-35">27-35ft</option>
@@ -387,7 +387,7 @@ export default function SkipperLargePowerboatPage() {
                     </select>
                   </div>
                   <div>
-                    <label className="mb-2 block text-sm font-medium text-primary">Message</label>
+                    <label className="mb-2 block text-sm font-medium text-[#061625]">Message</label>
                     <textarea rows={4} placeholder="Tell us about your powerboating goals..." className="flex w-full rounded-[10px] border border-input bg-background px-4 py-3 text-sm" />
                   </div>
                   <input type="hidden" name="certification" value="skipper-large-powerboat" />
@@ -401,10 +401,10 @@ export default function SkipperLargePowerboatPage() {
             <div className="mt-8 text-center">
               <p className="mb-2 text-muted-foreground">Or contact us directly:</p>
               <div className="flex flex-wrap justify-center gap-6">
-                <a href="tel:+17865201558" className="flex items-center gap-2 text-primary hover:text-secondary">
+                <a href="tel:+17865201558" className="flex items-center gap-2 text-[#061625] hover:text-[#e89d79]">
                   <Phone className="h-5 w-5" />+1 (786) 520-1558
                 </a>
-                <a href="mailto:info@mycaribbeancharters.com" className="flex items-center gap-2 text-primary hover:text-secondary">
+                <a href="mailto:info@mycaribbeancharters.com" className="flex items-center gap-2 text-[#061625] hover:text-[#e89d79]">
                   <Mail className="h-5 w-5" />info@mycaribbeancharters.com
                 </a>
               </div>
@@ -415,12 +415,12 @@ export default function SkipperLargePowerboatPage() {
       {/* Other Certifications */}
       <section className="bg-muted py-20">
         <div className="container mx-auto px-4">
-          <h2 className="mb-8 text-center text-3xl font-bold text-primary">Other NauticEd Certifications</h2>
+          <h2 className="mb-8 text-center text-3xl font-bold text-[#061625]">Other NauticEd Certifications</h2>
           <div className="grid gap-6 md:grid-cols-4">
             <Link href="/training/nauticed/catamaran-sailing-confidence" className="group">
-              <Card className="h-full border-2 border-primary/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
+              <Card className="h-full border-2 border-[#061625]/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
                 <CardContent className="p-6">
-                  <h3 className="mb-2 font-bold text-primary group-hover:text-[#e89d79]">Catamaran Sailing Confidence</h3>
+                  <h3 className="mb-2 font-bold text-[#061625] group-hover:text-[#e89d79]">Catamaran Sailing Confidence</h3>
                   <p className="text-sm text-muted-foreground">Master catamaran handling</p>
                 </CardContent>
               </Card>
@@ -429,23 +429,23 @@ export default function SkipperLargePowerboatPage() {
               <Card className="h-full border-2 border-[#e89d79] shadow-lg">
                 <CardContent className="p-6">
                   <span className="mb-2 inline-block rounded bg-[#e89d79]/10 px-2 py-1 text-xs font-bold text-[#e89d79]">Recommended Next</span>
-                  <h3 className="mb-2 font-bold text-primary">Bareboat Charter Master</h3>
+                  <h3 className="mb-2 font-bold text-[#061625]">Bareboat Charter Master</h3>
                   <p className="text-sm text-muted-foreground">Charter worldwide</p>
                 </CardContent>
               </Card>
             </Link>
             <Link href="/training/nauticed/captain-rank" className="group">
-              <Card className="h-full border-2 border-primary/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
+              <Card className="h-full border-2 border-[#061625]/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
                 <CardContent className="p-6">
-                  <h3 className="mb-2 font-bold text-primary group-hover:text-[#e89d79]">Captain Rank</h3>
+                  <h3 className="mb-2 font-bold text-[#061625] group-hover:text-[#e89d79]">Captain Rank</h3>
                   <p className="text-sm text-muted-foreground">Professional level</p>
                 </CardContent>
               </Card>
             </Link>
             <Link href="/training/nauticed/slc-license" className="group">
-              <Card className="h-full border-2 border-primary/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
+              <Card className="h-full border-2 border-[#061625]/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
                 <CardContent className="p-6">
-                  <h3 className="mb-2 font-bold text-primary group-hover:text-[#e89d79]">SLC License</h3>
+                  <h3 className="mb-2 font-bold text-[#061625] group-hover:text-[#e89d79]">SLC License</h3>
                   <p className="text-sm text-muted-foreground">International license</p>
                 </CardContent>
               </Card>
@@ -454,11 +454,11 @@ export default function SkipperLargePowerboatPage() {
           <div className="mt-10 text-center">
             <p className="text-sm text-muted-foreground">Explore More:</p>
             <div className="mt-2 flex flex-wrap justify-center gap-3 text-sm">
-              <Link href="/training" className="text-secondary hover:underline">All Training Programs</Link>
+              <Link href="/training" className="text-[#e89d79] hover:underline">All Training Programs</Link>
               <span className="text-muted-foreground">•</span>
-              <Link href="/training/day-skipper" className="text-secondary hover:underline">BVI Sailing Courses</Link>
+              <Link href="/training/day-skipper" className="text-[#e89d79] hover:underline">BVI Sailing Courses</Link>
               <span className="text-muted-foreground">•</span>
-              <Link href="/bali" className="text-secondary hover:underline">Train on Bali Catamarans</Link>
+              <Link href="/bali" className="text-[#e89d79] hover:underline">Train on Bali Catamarans</Link>
             </div>
           </div>
         </div>

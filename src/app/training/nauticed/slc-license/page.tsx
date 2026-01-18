@@ -73,15 +73,15 @@ export default function SLCLicensePage() {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-4xl">
-            <h2 className="mb-6 text-center text-4xl font-bold text-primary">What is the SLC License?</h2>
+            <h2 className="mb-6 text-center text-4xl font-bold text-[#061625]">What is the SLC License?</h2>
             <p className="mb-8 text-center text-lg text-muted-foreground">
               The Sailing License and Credentials (SLC) is an internationally recognized boating license
               that proves your competence to charter yachts in countries that require a license.
             </p>
             <div className="grid gap-6 md:grid-cols-2 mb-12">
-              <Card className="border-2 border-primary/10">
+              <Card className="border-2 border-[#061625]/10">
                 <CardContent className="p-6">
-                  <h3 className="mb-4 text-xl font-bold text-primary">Where You Can Charter</h3>
+                  <h3 className="mb-4 text-xl font-bold text-[#061625]">Where You Can Charter</h3>
                   <div className="grid grid-cols-2 gap-2">
                     <div className="flex items-center gap-2 text-sm text-muted-foreground">
                       <MapPin className="h-4 w-4 text-[#e89d79]" />
@@ -126,9 +126,9 @@ export default function SLCLicensePage() {
                   </div>
                 </CardContent>
               </Card>
-              <Card className="border-2 border-primary/10">
+              <Card className="border-2 border-[#061625]/10">
                 <CardContent className="p-6">
-                  <h3 className="mb-4 text-xl font-bold text-primary">License Features</h3>
+                  <h3 className="mb-4 text-xl font-bold text-[#061625]">License Features</h3>
                   <ul className="space-y-3 text-muted-foreground">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="mt-0.5 h-4 w-4 flex-shrink-0 text-[#e89d79]" />
@@ -160,26 +160,26 @@ export default function SLCLicensePage() {
       {/* How to Get It */}
       <section className="bg-muted py-20">
         <div className="container mx-auto px-4">
-          <h2 className="mb-12 text-center text-4xl font-bold text-primary">How to Get Your SLC</h2>
+          <h2 className="mb-12 text-center text-4xl font-bold text-[#061625]">How to Get Your SLC</h2>
           <div className="mx-auto max-w-4xl">
             <div className="grid gap-8 md:grid-cols-3">
               <div className="text-center">
                 <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[#061625] text-2xl font-bold text-white">1</div>
-                <h3 className="mb-2 text-xl font-bold text-primary">Complete Online Courses</h3>
+                <h3 className="mb-2 text-xl font-bold text-[#061625]">Complete Online Courses</h3>
                 <p className="text-muted-foreground">
                   Finish required NauticEd theory courses including navigation, safety, and seamanship.
                 </p>
               </div>
               <div className="text-center">
                 <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[#061625] text-2xl font-bold text-white">2</div>
-                <h3 className="mb-2 text-xl font-bold text-primary">Practical Training with MCC</h3>
+                <h3 className="mb-2 text-xl font-bold text-[#061625]">Practical Training with MCC</h3>
                 <p className="text-muted-foreground">
                   Complete on-water practical assessment in the BVI aboard a Bali catamaran.
                 </p>
               </div>
               <div className="text-center">
                 <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[#061625] text-2xl font-bold text-white">3</div>
-                <h3 className="mb-2 text-xl font-bold text-primary">Receive Your License</h3>
+                <h3 className="mb-2 text-xl font-bold text-[#061625]">Receive Your License</h3>
                 <p className="text-muted-foreground">
                   Get your physical SLC card and digital license, ready for worldwide chartering.
                 </p>
@@ -192,7 +192,7 @@ export default function SLCLicensePage() {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-4xl">
-            <h2 className="mb-8 text-center text-4xl font-bold text-primary">SLC vs ICC: What's the Difference?</h2>
+            <h2 className="mb-8 text-center text-4xl font-bold text-[#061625]">SLC vs ICC: What's the Difference?</h2>
             <div className="overflow-hidden rounded-xl border">
               <table className="w-full">
                 <thead className="bg-[#061625] text-white">
@@ -252,30 +252,30 @@ export default function SLCLicensePage() {
                 <form className="space-y-6">
                   <div className="grid gap-6 md:grid-cols-2">
                     <div>
-                      <label className="mb-2 block text-sm font-medium text-primary">First Name *</label>
+                      <label className="mb-2 block text-sm font-medium text-[#061625]">First Name *</label>
                       <input type="text" required placeholder="John" className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm" />
                     </div>
                     <div>
-                      <label className="mb-2 block text-sm font-medium text-primary">Last Name *</label>
+                      <label className="mb-2 block text-sm font-medium text-[#061625]">Last Name *</label>
                       <input type="text" required placeholder="Smith" className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm" />
                     </div>
                   </div>
                   <div className="grid gap-6 md:grid-cols-2">
                     <div>
-                      <label className="mb-2 block text-sm font-medium text-primary">Email *</label>
+                      <label className="mb-2 block text-sm font-medium text-[#061625]">Email *</label>
                       <input type="email" required placeholder="john@example.com" className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm" />
                     </div>
                     <div>
-                      <label className="mb-2 block text-sm font-medium text-primary">Phone</label>
+                      <label className="mb-2 block text-sm font-medium text-[#061625]">Phone</label>
                       <input type="tel" placeholder="+1 (555) 123-4567" className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm" />
                     </div>
                   </div>
                   <div>
-                    <label className="mb-2 block text-sm font-medium text-primary">Where Do You Want to Charter?</label>
+                    <label className="mb-2 block text-sm font-medium text-[#061625]">Where Do You Want to Charter?</label>
                     <input type="text" placeholder="e.g., Mediterranean, Caribbean, Thailand" className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm" />
                   </div>
                   <div>
-                    <label className="mb-2 block text-sm font-medium text-primary">Current Sailing Experience</label>
+                    <label className="mb-2 block text-sm font-medium text-[#061625]">Current Sailing Experience</label>
                     <select className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm">
                       <option value="">Select your experience level</option>
                       <option value="beginner">Beginner - Learning to sail</option>
@@ -285,7 +285,7 @@ export default function SLCLicensePage() {
                     </select>
                   </div>
                   <div>
-                    <label className="mb-2 block text-sm font-medium text-primary">Message</label>
+                    <label className="mb-2 block text-sm font-medium text-[#061625]">Message</label>
                     <textarea rows={4} placeholder="Tell us about your charter plans..." className="flex w-full rounded-[10px] border border-input bg-background px-4 py-3 text-sm" />
                   </div>
                   <input type="hidden" name="certification" value="slc-license" />
@@ -313,15 +313,15 @@ export default function SLCLicensePage() {
       {/* Related Certifications */}
       <section className="py-20">
         <div className="container mx-auto px-4">
-          <h2 className="mb-8 text-center text-3xl font-bold text-primary">Related Certifications</h2>
+          <h2 className="mb-8 text-center text-3xl font-bold text-[#061625]">Related Certifications</h2>
           <p className="mb-8 text-center text-muted-foreground">
             Complete these certifications to qualify for your SLC license:
           </p>
           <div className="grid gap-6 md:grid-cols-3 max-w-4xl mx-auto">
             <Link href="/training/nauticed/skipper-large-powerboat" className="group">
-              <Card className="h-full border-2 border-primary/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
+              <Card className="h-full border-2 border-[#061625]/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
                 <CardContent className="p-6">
-                  <h3 className="mb-2 font-bold text-primary group-hover:text-[#e89d79]">Skipper Large Powerboat</h3>
+                  <h3 className="mb-2 font-bold text-[#061625] group-hover:text-[#e89d79]">Skipper Large Powerboat</h3>
                   <p className="text-sm text-muted-foreground">Foundation for SLC eligibility</p>
                 </CardContent>
               </Card>
@@ -330,15 +330,15 @@ export default function SLCLicensePage() {
               <Card className="h-full border-2 border-[#e89d79] shadow-lg">
                 <CardContent className="p-6">
                   <span className="mb-2 inline-block rounded bg-[#e89d79]/10 px-2 py-1 text-xs font-bold text-[#e89d79]">Recommended</span>
-                  <h3 className="mb-2 font-bold text-primary">Bareboat Charter Master</h3>
+                  <h3 className="mb-2 font-bold text-[#061625]">Bareboat Charter Master</h3>
                   <p className="text-sm text-muted-foreground">Complete SLC qualification</p>
                 </CardContent>
               </Card>
             </Link>
             <Link href="/training/nauticed/captain-rank" className="group">
-              <Card className="h-full border-2 border-primary/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
+              <Card className="h-full border-2 border-[#061625]/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
                 <CardContent className="p-6">
-                  <h3 className="mb-2 font-bold text-primary group-hover:text-[#e89d79]">Captain Rank</h3>
+                  <h3 className="mb-2 font-bold text-[#061625] group-hover:text-[#e89d79]">Captain Rank</h3>
                   <p className="text-sm text-muted-foreground">Highest certification level</p>
                 </CardContent>
               </Card>
@@ -347,11 +347,11 @@ export default function SLCLicensePage() {
           <div className="mt-10 text-center">
             <p className="text-sm text-muted-foreground">Explore More:</p>
             <div className="mt-2 flex flex-wrap justify-center gap-3 text-sm">
-              <Link href="/training" className="text-secondary hover:underline">All Training Programs</Link>
+              <Link href="/training" className="text-[#e89d79] hover:underline">All Training Programs</Link>
               <span className="text-muted-foreground">•</span>
-              <Link href="/training/day-skipper-st-martin" className="text-secondary hover:underline">St Martin Catamaran Training</Link>
+              <Link href="/training/day-skipper-st-martin" className="text-[#e89d79] hover:underline">St Martin Catamaran Training</Link>
               <span className="text-muted-foreground">•</span>
-              <Link href="/bali" className="text-secondary hover:underline">Train on Bali Catamarans</Link>
+              <Link href="/bali" className="text-[#e89d79] hover:underline">Train on Bali Catamarans</Link>
             </div>
           </div>
         </div>

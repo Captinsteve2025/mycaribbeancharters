@@ -109,12 +109,12 @@ export default function EnquiryDialog({ open, onClose, preset }: EnquiryDialogPr
         {/* Header - Fixed */}
         <div className="flex items-center justify-between border-b p-4">
           <div>
-            <h3 className="text-xl font-bold text-primary">Reserve Your Spot</h3>
+            <h3 className="text-xl font-bold text-[#061625]">Reserve Your Spot</h3>
             <p className="text-sm text-muted-foreground">Fill out the enquiry form and we will contact you promptly</p>
           </div>
           <button
             onClick={onClose}
-            className="flex h-8 w-8 items-center justify-center rounded-full text-muted-foreground transition-colors hover:bg-muted hover:text-primary"
+            className="flex h-8 w-8 items-center justify-center rounded-full text-muted-foreground transition-colors hover:bg-muted hover:text-[#061625]"
             aria-label="Close"
           >
             <X className="h-5 w-5" />
@@ -125,31 +125,31 @@ export default function EnquiryDialog({ open, onClose, preset }: EnquiryDialogPr
         <div className="flex-1 overflow-y-auto p-4 sm:p-6">
           {preset?.passage || preset?.date || preset?.pkg ? (
             <div className="mb-6 rounded-lg bg-muted p-4 text-sm text-muted-foreground">
-              {preset?.passage && (<p><span className="font-medium text-primary">Passage:</span> {preset.passage}</p>)}
-              {preset?.date && (<p><span className="font-medium text-primary">Dates:</span> {preset.date}</p>)}
-              {preset?.pkg && (<p><span className="font-medium text-primary">Package:</span> {preset.pkg === "vip" ? "VIP" : "Standard"}</p>)}
+              {preset?.passage && (<p><span className="font-medium text-[#061625]">Passage:</span> {preset.passage}</p>)}
+              {preset?.date && (<p><span className="font-medium text-[#061625]">Dates:</span> {preset.date}</p>)}
+              {preset?.pkg && (<p><span className="font-medium text-[#061625]">Package:</span> {preset.pkg === "vip" ? "VIP" : "Standard"}</p>)}
             </div>
           ) : null}
 
           <div className="grid gap-4 sm:gap-6 md:grid-cols-2">
             <div>
-              <label className="mb-2 block text-sm font-medium text-primary">Name *</label>
+              <label className="mb-2 block text-sm font-medium text-[#061625]">Name *</label>
               <Input value={form.name} onChange={update("name")} placeholder="Full name" autoComplete="name" />
             </div>
             <div>
-              <label className="mb-2 block text-sm font-medium text-primary">Tel *</label>
+              <label className="mb-2 block text-sm font-medium text-[#061625]">Tel *</label>
               <Input value={form.tel} onChange={update("tel")} placeholder="+1 (555) 123-4567" inputMode="tel" autoComplete="tel" />
             </div>
             <div>
-              <label className="mb-2 block text-sm font-medium text-primary">Email *</label>
+              <label className="mb-2 block text-sm font-medium text-[#061625]">Email *</label>
               <Input type="email" value={form.email} onChange={update("email")} placeholder="you@example.com" autoComplete="email" />
             </div>
             <div>
-              <label className="mb-2 block text-sm font-medium text-primary">Age *</label>
+              <label className="mb-2 block text-sm font-medium text-[#061625]">Age *</label>
               <Input type="number" value={form.age} onChange={update("age")} placeholder="Your age" inputMode="numeric" autoComplete="off" />
             </div>
             <div>
-              <label className="mb-2 block text-sm font-medium text-primary">Experience *</label>
+              <label className="mb-2 block text-sm font-medium text-[#061625]">Experience *</label>
               <select className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm" value={form.experience} onChange={update("experience")} autoComplete="off">
                 <option value="">Select level</option>
                 <option value="beginner">Beginner</option>
@@ -158,11 +158,11 @@ export default function EnquiryDialog({ open, onClose, preset }: EnquiryDialogPr
               </select>
             </div>
             <div>
-              <label className="mb-2 block text-sm font-medium text-primary">Current qualifications & experience *</label>
+              <label className="mb-2 block text-sm font-medium text-[#061625]">Current qualifications & experience *</label>
               <Input value={form.qualifications} onChange={update("qualifications")} placeholder="RYA/ASA/NauticEd or relevant experience" autoComplete="off" />
             </div>
             <div>
-              <label className="mb-2 block text-sm font-medium text-primary">Swimmer *</label>
+              <label className="mb-2 block text-sm font-medium text-[#061625]">Swimmer *</label>
               <select className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm" value={form.swimmer} onChange={update("swimmer")} autoComplete="off">
                 <option value="">Select</option>
                 <option value="yes">Yes</option>
@@ -170,13 +170,13 @@ export default function EnquiryDialog({ open, onClose, preset }: EnquiryDialogPr
               </select>
             </div>
             <div>
-              <label className="mb-2 block text-sm font-medium text-primary">Medical conditions *</label>
+              <label className="mb-2 block text-sm font-medium text-[#061625]">Medical conditions *</label>
               <Input value={form.medical} onChange={update("medical")} placeholder="Any conditions we should be aware of" autoComplete="off" />
             </div>
           </div>
 
           <div className="mt-4 sm:mt-6">
-            <label className="mb-2 block text-sm font-medium text-primary">What would you like to achieve from this trip? *</label>
+            <label className="mb-2 block text-sm font-medium text-[#061625]">What would you like to achieve from this trip? *</label>
             <Textarea value={form.goals} onChange={update("goals")} placeholder="Your objectives for training and mile-building" autoComplete="off" />
           </div>
 

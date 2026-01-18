@@ -81,16 +81,16 @@ export default function CatamaranSailingConfidencePage() {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-4xl">
-            <h2 className="mb-6 text-center text-4xl font-bold text-primary">What You'll Learn</h2>
+            <h2 className="mb-6 text-center text-4xl font-bold text-[#061625]">What You'll Learn</h2>
             <p className="mb-12 text-center text-lg text-muted-foreground">
               Created by world-class instructors including Lagoon Catamaran expert Nick Harvey and
               NauticEd legend Grant Headifen, this course teaches you to skipper large catamarans
               safely and effectively.
             </p>
             <div className="grid gap-6 md:grid-cols-3">
-              <Card className="border-2 border-primary/10">
+              <Card className="border-2 border-[#061625]/10">
                 <CardContent className="p-6">
-                  <h3 className="mb-4 text-lg font-bold text-primary">Getting Started</h3>
+                  <h3 className="mb-4 text-lg font-bold text-[#061625]">Getting Started</h3>
                   <ul className="space-y-2 text-sm text-muted-foreground">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="mt-0.5 h-4 w-4 flex-shrink-0 text-[#e89d79]" />
@@ -111,9 +111,9 @@ export default function CatamaranSailingConfidencePage() {
                   </ul>
                 </CardContent>
               </Card>
-              <Card className="border-2 border-primary/10">
+              <Card className="border-2 border-[#061625]/10">
                 <CardContent className="p-6">
-                  <h3 className="mb-4 text-lg font-bold text-primary">Maneuvering</h3>
+                  <h3 className="mb-4 text-lg font-bold text-[#061625]">Maneuvering</h3>
                   <ul className="space-y-2 text-sm text-muted-foreground">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="mt-0.5 h-4 w-4 flex-shrink-0 text-[#e89d79]" />
@@ -134,9 +134,9 @@ export default function CatamaranSailingConfidencePage() {
                   </ul>
                 </CardContent>
               </Card>
-              <Card className="border-2 border-primary/10">
+              <Card className="border-2 border-[#061625]/10">
                 <CardContent className="p-6">
-                  <h3 className="mb-4 text-lg font-bold text-primary">Sailing</h3>
+                  <h3 className="mb-4 text-lg font-bold text-[#061625]">Sailing</h3>
                   <ul className="space-y-2 text-sm text-muted-foreground">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="mt-0.5 h-4 w-4 flex-shrink-0 text-[#e89d79]" />
@@ -164,14 +164,14 @@ export default function CatamaranSailingConfidencePage() {
       {/* Perfect For */}
       <section className="bg-muted py-20">
         <div className="container mx-auto px-4">
-          <h2 className="mb-12 text-center text-4xl font-bold text-primary">This Course Is Perfect For You If...</h2>
+          <h2 className="mb-12 text-center text-4xl font-bold text-[#061625]">This Course Is Perfect For You If...</h2>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
             <Card className="border-0 shadow-lg">
               <CardContent className="p-6 text-center">
                 <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-[#e89d79]/10">
                   <Users className="h-7 w-7 text-[#e89d79]" />
                 </div>
-                <h3 className="mb-2 font-bold text-primary">Monohull Crossovers</h3>
+                <h3 className="mb-2 font-bold text-[#061625]">Monohull Crossovers</h3>
                 <p className="text-sm text-muted-foreground">
                   Transitioning from monohulls and want to sail multihulls confidently.
                 </p>
@@ -182,7 +182,7 @@ export default function CatamaranSailingConfidencePage() {
                 <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-[#e89d79]/10">
                   <Anchor className="h-7 w-7 text-[#e89d79]" />
                 </div>
-                <h3 className="mb-2 font-bold text-primary">Charter Planners</h3>
+                <h3 className="mb-2 font-bold text-[#061625]">Charter Planners</h3>
                 <p className="text-sm text-muted-foreground">
                   Dreaming of a stress-free catamaran charter vacation.
                 </p>
@@ -193,7 +193,7 @@ export default function CatamaranSailingConfidencePage() {
                 <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-[#e89d79]/10">
                   <Ship className="h-7 w-7 text-[#e89d79]" />
                 </div>
-                <h3 className="mb-2 font-bold text-primary">Future Owners</h3>
+                <h3 className="mb-2 font-bold text-[#061625]">Future Owners</h3>
                 <p className="text-sm text-muted-foreground">
                   Exploring buying a catamaran and want to understand what's involved.
                 </p>
@@ -204,7 +204,7 @@ export default function CatamaranSailingConfidencePage() {
                 <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-[#e89d79]/10">
                   <Award className="h-7 w-7 text-[#e89d79]" />
                 </div>
-                <h3 className="mb-2 font-bold text-primary">New Cat Sailors</h3>
+                <h3 className="mb-2 font-bold text-[#061625]">New Cat Sailors</h3>
                 <p className="text-sm text-muted-foreground">
                   New to catamarans and want to build confidence quickly.
                 </p>
@@ -217,47 +217,47 @@ export default function CatamaranSailingConfidencePage() {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-4xl">
-            <h2 className="mb-12 text-center text-4xl font-bold text-primary">Everything You Get</h2>
+            <h2 className="mb-12 text-center text-4xl font-bold text-[#061625]">Everything You Get</h2>
             <div className="grid gap-4 md:grid-cols-2">
               <div className="flex items-start gap-3 rounded-lg bg-muted/50 p-4">
                 <CheckCircle2 className="mt-0.5 h-5 w-5 flex-shrink-0 text-[#e89d79]" />
                 <div>
-                  <p className="font-medium text-primary">Learn to sail large catamarans</p>
+                  <p className="font-medium text-[#061625]">Learn to sail large catamarans</p>
                   <p className="text-sm text-muted-foreground">On your own or on a bareboat charter</p>
                 </div>
               </div>
               <div className="flex items-start gap-3 rounded-lg bg-muted/50 p-4">
                 <CheckCircle2 className="mt-0.5 h-5 w-5 flex-shrink-0 text-[#e89d79]" />
                 <div>
-                  <p className="font-medium text-primary">Available immediately online</p>
+                  <p className="font-medium text-[#061625]">Available immediately online</p>
                   <p className="text-sm text-muted-foreground">Start learning today at your own pace</p>
                 </div>
               </div>
               <div className="flex items-start gap-3 rounded-lg bg-muted/50 p-4">
                 <CheckCircle2 className="mt-0.5 h-5 w-5 flex-shrink-0 text-[#e89d79]" />
                 <div>
-                  <p className="font-medium text-primary">Unlimited lifetime access</p>
+                  <p className="font-medium text-[#061625]">Unlimited lifetime access</p>
                   <p className="text-sm text-muted-foreground">Review materials anytime, free updates included</p>
                 </div>
               </div>
               <div className="flex items-start gap-3 rounded-lg bg-muted/50 p-4">
                 <CheckCircle2 className="mt-0.5 h-5 w-5 flex-shrink-0 text-[#e89d79]" />
                 <div>
-                  <p className="font-medium text-primary">Free bonus courses</p>
+                  <p className="font-medium text-[#061625]">Free bonus courses</p>
                   <p className="text-sm text-muted-foreground">Basic Sail Trim & Nav Rules included</p>
                 </div>
               </div>
               <div className="flex items-start gap-3 rounded-lg bg-muted/50 p-4">
                 <CheckCircle2 className="mt-0.5 h-5 w-5 flex-shrink-0 text-[#e89d79]" />
                 <div>
-                  <p className="font-medium text-primary">Sailing resume recognition</p>
+                  <p className="font-medium text-[#061625]">Sailing resume recognition</p>
                   <p className="text-sm text-muted-foreground">Charter companies trust NauticEd credentials</p>
                 </div>
               </div>
               <div className="flex items-start gap-3 rounded-lg bg-muted/50 p-4">
                 <CheckCircle2 className="mt-0.5 h-5 w-5 flex-shrink-0 text-[#e89d79]" />
                 <div>
-                  <p className="font-medium text-primary">30-day money back guarantee</p>
+                  <p className="font-medium text-[#061625]">30-day money back guarantee</p>
                   <p className="text-sm text-muted-foreground">Complete satisfaction guaranteed</p>
                 </div>
               </div>
@@ -303,37 +303,37 @@ export default function CatamaranSailingConfidencePage() {
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-2xl">
             <div className="mb-12 text-center">
-              <h2 className="mb-4 text-4xl font-bold text-primary">Get Started Today</h2>
+              <h2 className="mb-4 text-4xl font-bold text-[#061625]">Get Started Today</h2>
               <p className="text-lg text-muted-foreground">
                 Contact us to learn more about the Catamaran Sailing Confidence course
                 and how to combine it with practical training in the Caribbean.
               </p>
             </div>
-            <Card className="border-2 border-primary/10 shadow-xl">
+            <Card className="border-2 border-[#061625]/10 shadow-xl">
               <CardContent className="p-8">
                 <form className="space-y-6">
                   <div className="grid gap-6 md:grid-cols-2">
                     <div>
-                      <label className="mb-2 block text-sm font-medium text-primary">First Name *</label>
+                      <label className="mb-2 block text-sm font-medium text-[#061625]">First Name *</label>
                       <input type="text" required placeholder="John" className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm" />
                     </div>
                     <div>
-                      <label className="mb-2 block text-sm font-medium text-primary">Last Name *</label>
+                      <label className="mb-2 block text-sm font-medium text-[#061625]">Last Name *</label>
                       <input type="text" required placeholder="Smith" className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm" />
                     </div>
                   </div>
                   <div className="grid gap-6 md:grid-cols-2">
                     <div>
-                      <label className="mb-2 block text-sm font-medium text-primary">Email *</label>
+                      <label className="mb-2 block text-sm font-medium text-[#061625]">Email *</label>
                       <input type="email" required placeholder="john@example.com" className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm" />
                     </div>
                     <div>
-                      <label className="mb-2 block text-sm font-medium text-primary">Phone</label>
+                      <label className="mb-2 block text-sm font-medium text-[#061625]">Phone</label>
                       <input type="tel" placeholder="+1 (555) 123-4567" className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm" />
                     </div>
                   </div>
                   <div>
-                    <label className="mb-2 block text-sm font-medium text-primary">Your Interest</label>
+                    <label className="mb-2 block text-sm font-medium text-[#061625]">Your Interest</label>
                     <select className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm">
                       <option value="">What are you planning?</option>
                       <option value="charter">Planning a catamaran charter</option>
@@ -344,7 +344,7 @@ export default function CatamaranSailingConfidencePage() {
                     </select>
                   </div>
                   <div>
-                    <label className="mb-2 block text-sm font-medium text-primary">Message</label>
+                    <label className="mb-2 block text-sm font-medium text-[#061625]">Message</label>
                     <textarea rows={4} placeholder="Tell us about your sailing experience and goals..." className="flex w-full rounded-[10px] border border-input bg-background px-4 py-3 text-sm" />
                   </div>
                   <input type="hidden" name="course" value="catamaran-sailing-confidence" />
@@ -358,10 +358,10 @@ export default function CatamaranSailingConfidencePage() {
             <div className="mt-8 text-center">
               <p className="mb-2 text-muted-foreground">Or contact us directly:</p>
               <div className="flex flex-wrap justify-center gap-6">
-                <a href="tel:+17865201558" className="flex items-center gap-2 text-primary hover:text-[#e89d79]">
+                <a href="tel:+17865201558" className="flex items-center gap-2 text-[#061625] hover:text-[#e89d79]">
                   <Phone className="h-5 w-5" />+1 (786) 520-1558
                 </a>
-                <a href="mailto:info@mycaribbeancharters.com" className="flex items-center gap-2 text-primary hover:text-[#e89d79]">
+                <a href="mailto:info@mycaribbeancharters.com" className="flex items-center gap-2 text-[#061625] hover:text-[#e89d79]">
                   <Mail className="h-5 w-5" />info@mycaribbeancharters.com
                 </a>
               </div>
@@ -372,12 +372,12 @@ export default function CatamaranSailingConfidencePage() {
       {/* Other Certifications */}
       <section className="bg-muted py-20">
         <div className="container mx-auto px-4">
-          <h2 className="mb-8 text-center text-3xl font-bold text-primary">Continue Your Certification</h2>
+          <h2 className="mb-8 text-center text-3xl font-bold text-[#061625]">Continue Your Certification</h2>
           <div className="grid gap-6 md:grid-cols-4">
             <Link href="/training/nauticed/skipper-large-powerboat" className="group">
-              <Card className="h-full border-2 border-primary/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
+              <Card className="h-full border-2 border-[#061625]/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
                 <CardContent className="p-6">
-                  <h3 className="mb-2 font-bold text-primary group-hover:text-[#e89d79]">Skipper Large Powerboat</h3>
+                  <h3 className="mb-2 font-bold text-[#061625] group-hover:text-[#e89d79]">Skipper Large Powerboat</h3>
                   <p className="text-sm text-muted-foreground">For powerboats 27ft+</p>
                 </CardContent>
               </Card>
@@ -386,23 +386,23 @@ export default function CatamaranSailingConfidencePage() {
               <Card className="h-full border-2 border-[#e89d79] shadow-lg">
                 <CardContent className="p-6">
                   <span className="mb-2 inline-block rounded bg-[#e89d79]/10 px-2 py-1 text-xs font-bold text-[#e89d79]">Recommended</span>
-                  <h3 className="mb-2 font-bold text-primary">Bareboat Charter Master</h3>
+                  <h3 className="mb-2 font-bold text-[#061625]">Bareboat Charter Master</h3>
                   <p className="text-sm text-muted-foreground">Charter worldwide</p>
                 </CardContent>
               </Card>
             </Link>
             <Link href="/training/nauticed/captain-rank" className="group">
-              <Card className="h-full border-2 border-primary/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
+              <Card className="h-full border-2 border-[#061625]/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
                 <CardContent className="p-6">
-                  <h3 className="mb-2 font-bold text-primary group-hover:text-[#e89d79]">Captain Rank</h3>
+                  <h3 className="mb-2 font-bold text-[#061625] group-hover:text-[#e89d79]">Captain Rank</h3>
                   <p className="text-sm text-muted-foreground">Professional level</p>
                 </CardContent>
               </Card>
             </Link>
             <Link href="/training/nauticed/slc-license" className="group">
-              <Card className="h-full border-2 border-primary/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
+              <Card className="h-full border-2 border-[#061625]/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
                 <CardContent className="p-6">
-                  <h3 className="mb-2 font-bold text-primary group-hover:text-[#e89d79]">SLC License</h3>
+                  <h3 className="mb-2 font-bold text-[#061625] group-hover:text-[#e89d79]">SLC License</h3>
                   <p className="text-sm text-muted-foreground">International license</p>
                 </CardContent>
               </Card>

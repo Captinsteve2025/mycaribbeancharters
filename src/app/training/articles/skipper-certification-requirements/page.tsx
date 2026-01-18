@@ -15,11 +15,11 @@ export default function SkipperCertificationRequirementsPage() {
             <Logo variant="light" />
           </Link>
           <nav className="hidden gap-8 md:flex">
-            <a href="https://virginislandsyachtbroker.com/" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-secondary">Brokerage</a>
-            <Link href="/bali" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-secondary">New Bali</Link>
-            <Link href="/training" className="text-sm font-medium uppercase tracking-wide text-secondary">Training</Link>
-            <Link href="/charter-ownership" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-secondary">Charter Ownership</Link>
-            <Link href="/contact" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-secondary">Contact</Link>
+            <a href="https://virginislandsyachtbroker.com/" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-[#e89d79]">Brokerage</a>
+            <Link href="/bali" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-[#e89d79]">New Bali</Link>
+            <Link href="/training" className="text-sm font-medium uppercase tracking-wide text-[#e89d79]">Training</Link>
+            <Link href="/charter-ownership" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-[#e89d79]">Charter Ownership</Link>
+            <Link href="/contact" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-[#e89d79]">Contact</Link>
           </nav>
           <MobileNav currentPage="Training" variant="light" />
         </div>
@@ -61,22 +61,22 @@ export default function SkipperCertificationRequirementsPage() {
 
             {/* The Three Pillars */}
             <section className="mb-12">
-              <h2 className="mb-8 text-3xl font-bold text-primary">The Three Pillars of Charter Approval</h2>
+              <h2 className="mb-8 text-3xl font-bold text-[#061625]">The Three Pillars of Charter Approval</h2>
 
               <div className="space-y-6">
                 {/* Pillar 1: Formal Certification */}
-                <Card className="border-2 border-secondary">
+                <Card className="border-2 border-[#e89d79]">
                   <CardContent className="p-8">
                     <div className="flex items-start gap-4">
-                      <div className="flex h-12 w-12 items-center justify-center rounded-full bg-secondary text-xl font-bold text-primary">1</div>
+                      <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#e89d79] text-xl font-bold text-[#061625]">1</div>
                       <div>
-                        <h3 className="mb-3 text-2xl font-bold text-primary">Formal Certification</h3>
+                        <h3 className="mb-3 text-2xl font-bold text-[#061625]">Formal Certification</h3>
                         <p className="mb-4 text-muted-foreground">
                           The first thing charter companies check is whether you hold a recognized sailing qualification. The level required depends on the boat size, location, and company policy.
                         </p>
 
                         <div className="mb-4 rounded-lg bg-muted p-4">
-                          <h4 className="mb-3 font-bold text-primary">Accepted Certifications:</h4>
+                          <h4 className="mb-3 font-bold text-[#061625]">Accepted Certifications:</h4>
                           <ul className="grid gap-2 md:grid-cols-2">
                             <li className="flex items-center gap-2 text-sm text-muted-foreground">
                               <CheckCircle2 className="h-4 w-4 text-green-600" />
@@ -105,9 +105,9 @@ export default function SkipperCertificationRequirementsPage() {
                           </ul>
                         </div>
 
-                        <div className="rounded-lg border-l-4 border-secondary bg-secondary/10 p-4">
+                        <div className="rounded-lg border-l-4 border-[#e89d79] bg-[#e89d79]/10 p-4">
                           <p className="text-sm text-muted-foreground">
-                            <strong className="text-primary">Pro Tip:</strong> For European charters, ICC is often mandatory. NauticEd SLC includes ICC eligibility when combined with practical assessment.
+                            <strong className="text-[#061625]">Pro Tip:</strong> For European charters, ICC is often mandatory. NauticEd SLC includes ICC eligibility when combined with practical assessment.
                           </p>
                         </div>
                       </div>
@@ -116,36 +116,36 @@ export default function SkipperCertificationRequirementsPage() {
                 </Card>
 
                 {/* Pillar 2: Documented Experience */}
-                <Card className="border-2 border-primary/10">
+                <Card className="border-2 border-[#061625]/10">
                   <CardContent className="p-8">
                     <div className="flex items-start gap-4">
-                      <div className="flex h-12 w-12 items-center justify-center rounded-full bg-secondary text-xl font-bold text-primary">2</div>
+                      <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#e89d79] text-xl font-bold text-[#061625]">2</div>
                       <div>
-                        <h3 className="mb-3 text-2xl font-bold text-primary">Documented Experience</h3>
+                        <h3 className="mb-3 text-2xl font-bold text-[#061625]">Documented Experience</h3>
                         <p className="mb-4 text-muted-foreground">
                           Certification alone isn't enough. Charter companies want to see that you've actually been sailing — and recently. Your sailing resume or logbook proves your practical experience.
                         </p>
 
                         <div className="mb-4 grid gap-4 md:grid-cols-2">
                           <div className="rounded-lg bg-muted p-4">
-                            <h4 className="mb-2 font-bold text-primary">Minimum Requirements (Typical)</h4>
+                            <h4 className="mb-2 font-bold text-[#061625]">Minimum Requirements (Typical)</h4>
                             <ul className="space-y-2 text-sm text-muted-foreground">
                               <li className="flex items-center gap-2">
-                                <Clock className="h-4 w-4 text-secondary" />
+                                <Clock className="h-4 w-4 text-[#e89d79]" />
                                 <span>50+ hours logged sailing time</span>
                               </li>
                               <li className="flex items-center gap-2">
-                                <Ship className="h-4 w-4 text-secondary" />
+                                <Ship className="h-4 w-4 text-[#e89d79]" />
                                 <span>Experience on similar-sized vessel</span>
                               </li>
                               <li className="flex items-center gap-2">
-                                <Globe className="h-4 w-4 text-secondary" />
+                                <Globe className="h-4 w-4 text-[#e89d79]" />
                                 <span>Recent sailing (within 12-24 months)</span>
                               </li>
                             </ul>
                           </div>
                           <div className="rounded-lg bg-muted p-4">
-                            <h4 className="mb-2 font-bold text-primary">What Strengthens Your Resume</h4>
+                            <h4 className="mb-2 font-bold text-[#061625]">What Strengthens Your Resume</h4>
                             <ul className="space-y-2 text-sm text-muted-foreground">
                               <li className="flex items-center gap-2">
                                 <CheckCircle2 className="h-4 w-4 text-green-600" />
@@ -165,7 +165,7 @@ export default function SkipperCertificationRequirementsPage() {
 
                         <div className="rounded-lg border-l-4 border-[#47c0d5] bg-[#47c0d5]/10 p-4">
                           <p className="text-sm text-muted-foreground">
-                            <strong className="text-primary">NauticEd Advantage:</strong> The NauticEd digital logbook automatically builds your sailing resume as you complete courses and log trips. Charter companies can verify your credentials online instantly.
+                            <strong className="text-[#061625]">NauticEd Advantage:</strong> The NauticEd digital logbook automatically builds your sailing resume as you complete courses and log trips. Charter companies can verify your credentials online instantly.
                           </p>
                         </div>
                       </div>
@@ -174,46 +174,46 @@ export default function SkipperCertificationRequirementsPage() {
                 </Card>
 
                 {/* Pillar 3: Vessel-Specific Competence */}
-                <Card className="border-2 border-primary/10">
+                <Card className="border-2 border-[#061625]/10">
                   <CardContent className="p-8">
                     <div className="flex items-start gap-4">
-                      <div className="flex h-12 w-12 items-center justify-center rounded-full bg-secondary text-xl font-bold text-primary">3</div>
+                      <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#e89d79] text-xl font-bold text-[#061625]">3</div>
                       <div>
-                        <h3 className="mb-3 text-2xl font-bold text-primary">Vessel-Specific Competence</h3>
+                        <h3 className="mb-3 text-2xl font-bold text-[#061625]">Vessel-Specific Competence</h3>
                         <p className="mb-4 text-muted-foreground">
                           Chartering a 50ft catamaran is very different from sailing a 30ft monohull. Companies want assurance you can handle the specific type of vessel you're booking.
                         </p>
 
                         <div className="mb-4 rounded-lg bg-muted p-4">
-                          <h4 className="mb-3 font-bold text-primary">Key Considerations:</h4>
+                          <h4 className="mb-3 font-bold text-[#061625]">Key Considerations:</h4>
                           <ul className="space-y-2 text-muted-foreground">
                             <li className="flex items-start gap-2">
-                              <Ship className="mt-0.5 h-4 w-4 text-secondary" />
+                              <Ship className="mt-0.5 h-4 w-4 text-[#e89d79]" />
                               <div>
-                                <span className="font-medium text-primary">Monohull vs. Catamaran:</span>
+                                <span className="font-medium text-[#061625]">Monohull vs. Catamaran:</span>
                                 <span> If chartering a cat, previous catamaran experience is strongly preferred or required</span>
                               </div>
                             </li>
                             <li className="flex items-start gap-2">
-                              <Ship className="mt-0.5 h-4 w-4 text-secondary" />
+                              <Ship className="mt-0.5 h-4 w-4 text-[#e89d79]" />
                               <div>
-                                <span className="font-medium text-primary">Vessel Size:</span>
+                                <span className="font-medium text-[#061625]">Vessel Size:</span>
                                 <span> Experience should be on vessels within 10-15ft of the charter boat</span>
                               </div>
                             </li>
                             <li className="flex items-start gap-2">
-                              <Ship className="mt-0.5 h-4 w-4 text-secondary" />
+                              <Ship className="mt-0.5 h-4 w-4 text-[#e89d79]" />
                               <div>
-                                <span className="font-medium text-primary">Systems Knowledge:</span>
+                                <span className="font-medium text-[#061625]">Systems Knowledge:</span>
                                 <span> Understanding of modern yacht systems (watermakers, generators, electronics)</span>
                               </div>
                             </li>
                           </ul>
                         </div>
 
-                        <div className="rounded-lg border-l-4 border-secondary bg-secondary/10 p-4">
+                        <div className="rounded-lg border-l-4 border-[#e89d79] bg-[#e89d79]/10 p-4">
                           <p className="text-sm text-muted-foreground">
-                            <strong className="text-primary">Our Advantage:</strong> Training on Bali catamarans (40-55ft) means you'll have logged experience on the exact type of vessel most commonly chartered in the Caribbean and Mediterranean.
+                            <strong className="text-[#061625]">Our Advantage:</strong> Training on Bali catamarans (40-55ft) means you'll have logged experience on the exact type of vessel most commonly chartered in the Caribbean and Mediterranean.
                           </p>
                         </div>
                       </div>
@@ -225,18 +225,18 @@ export default function SkipperCertificationRequirementsPage() {
 
             {/* What Happens If You Don't Qualify */}
             <section className="mb-12">
-              <h2 className="mb-6 text-3xl font-bold text-primary">What If You Don't Meet Requirements?</h2>
+              <h2 className="mb-6 text-3xl font-bold text-[#061625]">What If You Don't Meet Requirements?</h2>
               <p className="mb-6 text-muted-foreground">
                 If your credentials fall short of a charter company's requirements, you typically have three options:
               </p>
 
               <div className="space-y-4">
-                <Card className="border-2 border-primary/10">
+                <Card className="border-2 border-[#061625]/10">
                   <CardContent className="p-6">
                     <div className="flex items-start gap-4">
-                      <Users className="h-6 w-6 text-secondary" />
+                      <Users className="h-6 w-6 text-[#e89d79]" />
                       <div>
-                        <h3 className="mb-2 font-bold text-primary">Option 1: Hire a Professional Skipper</h3>
+                        <h3 className="mb-2 font-bold text-[#061625]">Option 1: Hire a Professional Skipper</h3>
                         <p className="text-sm text-muted-foreground">
                           Most charter companies offer licensed skippers for hire. This adds €150-300/day but gives you an experienced captain. Great for learning while chartering.
                         </p>
@@ -245,12 +245,12 @@ export default function SkipperCertificationRequirementsPage() {
                   </CardContent>
                 </Card>
 
-                <Card className="border-2 border-primary/10">
+                <Card className="border-2 border-[#061625]/10">
                   <CardContent className="p-6">
                     <div className="flex items-start gap-4">
-                      <FileCheck className="h-6 w-6 text-secondary" />
+                      <FileCheck className="h-6 w-6 text-[#e89d79]" />
                       <div>
-                        <h3 className="mb-2 font-bold text-primary">Option 2: Complete a Checkout Sail</h3>
+                        <h3 className="mb-2 font-bold text-[#061625]">Option 2: Complete a Checkout Sail</h3>
                         <p className="text-sm text-muted-foreground">
                           Some companies offer an extended checkout (half-day with instructor) to verify your skills before approving bareboat charter. Additional fee typically €100-200.
                         </p>
@@ -259,12 +259,12 @@ export default function SkipperCertificationRequirementsPage() {
                   </CardContent>
                 </Card>
 
-                <Card className="border-2 border-secondary">
+                <Card className="border-2 border-[#e89d79]">
                   <CardContent className="p-6">
                     <div className="flex items-start gap-4">
-                      <Award className="h-6 w-6 text-secondary" />
+                      <Award className="h-6 w-6 text-[#e89d79]" />
                       <div>
-                        <h3 className="mb-2 font-bold text-primary">Option 3: Get Certified First (Recommended)</h3>
+                        <h3 className="mb-2 font-bold text-[#061625]">Option 3: Get Certified First (Recommended)</h3>
                         <p className="text-sm text-muted-foreground">
                           The most cost-effective long-term solution. A 6-day training program gives you certification, logged experience, and vessel-specific competence — qualifying you for bareboat charters worldwide.
                         </p>
@@ -277,11 +277,11 @@ export default function SkipperCertificationRequirementsPage() {
 
             {/* Charter Company Examples */}
             <section className="mb-12">
-              <h2 className="mb-6 text-3xl font-bold text-primary">What Major Charter Companies Require</h2>
+              <h2 className="mb-6 text-3xl font-bold text-[#061625]">What Major Charter Companies Require</h2>
 
-              <div className="overflow-hidden rounded-xl border-2 border-primary/10">
+              <div className="overflow-hidden rounded-xl border-2 border-[#061625]/10">
                 <table className="w-full">
-                  <thead className="bg-primary text-white">
+                  <thead className="bg-[#061625] text-white">
                     <tr>
                       <th className="p-4 text-left font-bold">Company Type</th>
                       <th className="p-4 text-left font-bold">Typical Requirements</th>
@@ -289,7 +289,7 @@ export default function SkipperCertificationRequirementsPage() {
                   </thead>
                   <tbody className="divide-y divide-gray-100">
                     <tr className="bg-white">
-                      <td className="p-4 font-medium text-primary">Major Fleets<br /><span className="text-xs text-muted-foreground">(Sunsail, Moorings, Dream Yacht)</span></td>
+                      <td className="p-4 font-medium text-[#061625]">Major Fleets<br /><span className="text-xs text-muted-foreground">(Sunsail, Moorings, Dream Yacht)</span></td>
                       <td className="p-4 text-muted-foreground">
                         <ul className="space-y-1 text-sm">
                           <li>• Recognized certification (RYA/ASA/NauticEd/IYT)</li>
@@ -299,7 +299,7 @@ export default function SkipperCertificationRequirementsPage() {
                       </td>
                     </tr>
                     <tr className="bg-muted/30">
-                      <td className="p-4 font-medium text-primary">European Bases<br /><span className="text-xs text-muted-foreground">(Croatia, Greece, Spain)</span></td>
+                      <td className="p-4 font-medium text-[#061625]">European Bases<br /><span className="text-xs text-muted-foreground">(Croatia, Greece, Spain)</span></td>
                       <td className="p-4 text-muted-foreground">
                         <ul className="space-y-1 text-sm">
                           <li>• ICC or equivalent mandatory</li>
@@ -309,7 +309,7 @@ export default function SkipperCertificationRequirementsPage() {
                       </td>
                     </tr>
                     <tr className="bg-white">
-                      <td className="p-4 font-medium text-primary">Caribbean Bases<br /><span className="text-xs text-muted-foreground">(BVI, St. Martin, Grenada)</span></td>
+                      <td className="p-4 font-medium text-[#061625]">Caribbean Bases<br /><span className="text-xs text-muted-foreground">(BVI, St. Martin, Grenada)</span></td>
                       <td className="p-4 text-muted-foreground">
                         <ul className="space-y-1 text-sm">
                           <li>• Certification or comprehensive resume</li>
@@ -319,7 +319,7 @@ export default function SkipperCertificationRequirementsPage() {
                       </td>
                     </tr>
                     <tr className="bg-muted/30">
-                      <td className="p-4 font-medium text-primary">Premium Yachts<br /><span className="text-xs text-muted-foreground">(50ft+ / High-value vessels)</span></td>
+                      <td className="p-4 font-medium text-[#061625]">Premium Yachts<br /><span className="text-xs text-muted-foreground">(50ft+ / High-value vessels)</span></td>
                       <td className="p-4 text-muted-foreground">
                         <ul className="space-y-1 text-sm">
                           <li>• Higher certification (Coastal Skipper level)</li>
@@ -359,22 +359,22 @@ export default function SkipperCertificationRequirementsPage() {
       <section className="bg-muted py-16">
         <div className="container mx-auto px-4">
           <div className="mb-6 text-center">
-            <Link href="/training" className="text-secondary hover:underline">← Back to All Training Programs</Link>
+            <Link href="/training" className="text-[#e89d79] hover:underline">← Back to All Training Programs</Link>
           </div>
-          <h2 className="mb-8 text-center text-2xl font-bold text-primary">Related Articles</h2>
+          <h2 className="mb-8 text-center text-2xl font-bold text-[#061625]">Related Articles</h2>
           <div className="mx-auto grid max-w-4xl gap-6 md:grid-cols-2">
             <Link href="/training/articles/catamaran-charter-certification-europe" className="group">
-              <Card className="h-full border-2 border-primary/10 transition-all group-hover:border-secondary">
+              <Card className="h-full border-2 border-[#061625]/10 transition-all group-hover:border-[#e89d79]">
                 <CardContent className="p-6">
-                  <h3 className="mb-2 font-bold text-primary group-hover:text-secondary">How to Get Certified to Charter a Catamaran in Europe</h3>
+                  <h3 className="mb-2 font-bold text-[#061625] group-hover:text-[#e89d79]">How to Get Certified to Charter a Catamaran in Europe</h3>
                   <p className="text-sm text-muted-foreground">Complete guide to SLC certification for European waters.</p>
                 </CardContent>
               </Card>
             </Link>
             <Link href="/training/articles/nauticed-vs-rya-certification" className="group">
-              <Card className="h-full border-2 border-primary/10 transition-all group-hover:border-secondary">
+              <Card className="h-full border-2 border-[#061625]/10 transition-all group-hover:border-[#e89d79]">
                 <CardContent className="p-6">
-                  <h3 className="mb-2 font-bold text-primary group-hover:text-secondary">NauticEd vs RYA for Catamaran Charter Certification</h3>
+                  <h3 className="mb-2 font-bold text-[#061625] group-hover:text-[#e89d79]">NauticEd vs RYA for Catamaran Charter Certification</h3>
                   <p className="text-sm text-muted-foreground">Compare certification options and find the right path for your goals.</p>
                 </CardContent>
               </Card>
@@ -384,7 +384,7 @@ export default function SkipperCertificationRequirementsPage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-primary py-16 text-white">
+      <footer className="bg-[#061625] py-16 text-white">
         <div className="container mx-auto px-4">
           <div className="grid gap-12 md:grid-cols-4">
             <div>
@@ -394,28 +394,28 @@ export default function SkipperCertificationRequirementsPage() {
             <div>
               <h3 className="mb-4 font-bold uppercase tracking-wide">Quick Links</h3>
               <ul className="space-y-2 text-white/80">
-                <li><Link href="/bali" className="transition-colors hover:text-secondary">New Bali Catamarans</Link></li>
-                <li><Link href="/training" className="transition-colors hover:text-secondary">Sailing Training</Link></li>
-                <li><Link href="/" className="transition-colors hover:text-secondary">Home</Link></li>
+                <li><Link href="/bali" className="transition-colors hover:text-[#e89d79]">New Bali Catamarans</Link></li>
+                <li><Link href="/training" className="transition-colors hover:text-[#e89d79]">Sailing Training</Link></li>
+                <li><Link href="/" className="transition-colors hover:text-[#e89d79]">Home</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="mb-4 font-bold uppercase tracking-wide">Training Programs</h3>
               <ul className="space-y-2 text-white/80">
-                <li><Link href="/training/day-skipper" className="transition-colors hover:text-secondary">Bareboat Charter Master (BVI)</Link></li>
-                <li><Link href="/training/day-skipper-st-martin" className="transition-colors hover:text-secondary">Bareboat Charter Master (St. Martin)</Link></li>
-                <li><Link href="/training/offshore-passages" className="transition-colors hover:text-secondary">Offshore Passages</Link></li>
+                <li><Link href="/training/day-skipper" className="transition-colors hover:text-[#e89d79]">Bareboat Charter Master (BVI)</Link></li>
+                <li><Link href="/training/day-skipper-st-martin" className="transition-colors hover:text-[#e89d79]">Bareboat Charter Master (St. Martin)</Link></li>
+                <li><Link href="/training/offshore-passages" className="transition-colors hover:text-[#e89d79]">Offshore Passages</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="mb-4 font-bold uppercase tracking-wide">Contact Us</h3>
               <ul className="space-y-3 text-white/80">
                 <li className="flex items-center gap-2">
-                  <Phone className="h-5 w-5 text-secondary" />
+                  <Phone className="h-5 w-5 text-[#e89d79]" />
                   <span>+1 786 246 0809</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <Mail className="h-5 w-5 text-secondary" />
+                  <Mail className="h-5 w-5 text-[#e89d79]" />
                   <span>training@virginislandsyachtbroker.com</span>
                 </li>
               </ul>

@@ -15,11 +15,11 @@ export default function CatamaranCharterCertificationEuropePage() {
             <Logo variant="light" />
           </Link>
           <nav className="hidden gap-8 md:flex">
-            <a href="https://virginislandsyachtbroker.com/" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-secondary">Brokerage</a>
-            <Link href="/bali" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-secondary">New Bali</Link>
-            <Link href="/training" className="text-sm font-medium uppercase tracking-wide text-secondary">Training</Link>
-            <Link href="/charter-ownership" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-secondary">Charter Ownership</Link>
-            <Link href="/contact" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-secondary">Contact</Link>
+            <a href="https://virginislandsyachtbroker.com/" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-[#e89d79]">Brokerage</a>
+            <Link href="/bali" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-[#e89d79]">New Bali</Link>
+            <Link href="/training" className="text-sm font-medium uppercase tracking-wide text-[#e89d79]">Training</Link>
+            <Link href="/charter-ownership" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-[#e89d79]">Charter Ownership</Link>
+            <Link href="/contact" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-[#e89d79]">Contact</Link>
           </nav>
           <MobileNav currentPage="Training" variant="light" />
         </div>
@@ -61,52 +61,52 @@ export default function CatamaranCharterCertificationEuropePage() {
 
             {/* Understanding European Requirements */}
             <section className="mb-12">
-              <h2 className="mb-6 text-3xl font-bold text-primary">Understanding European Charter Requirements</h2>
+              <h2 className="mb-6 text-3xl font-bold text-[#061625]">Understanding European Charter Requirements</h2>
               <p className="mb-6 text-muted-foreground">
                 Unlike the Caribbean, where charter requirements are often more relaxed, European countries mandate specific certifications:
               </p>
 
               <div className="mb-8 grid gap-6 md:grid-cols-2">
-                <Card className="border-2 border-primary/10">
+                <Card className="border-2 border-[#061625]/10">
                   <CardContent className="p-6">
-                    <h3 className="mb-3 text-xl font-bold text-primary">SLC (Sailing License and Credentials)</h3>
+                    <h3 className="mb-3 text-xl font-bold text-[#061625]">SLC (Sailing License and Credentials)</h3>
                     <p className="mb-4 text-sm text-muted-foreground">
                       The ICC is a UN-recognized certificate proving you're competent to operate recreational craft in foreign waters. Required or recommended in most European countries.
                     </p>
                     <ul className="space-y-2 text-sm text-muted-foreground">
                       <li className="flex items-start gap-2">
-                        <CheckCircle2 className="mt-0.5 h-4 w-4 text-secondary" />
+                        <CheckCircle2 className="mt-0.5 h-4 w-4 text-[#e89d79]" />
                         <span>Required in Croatia, Greece, Spain</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <CheckCircle2 className="mt-0.5 h-4 w-4 text-secondary" />
+                        <CheckCircle2 className="mt-0.5 h-4 w-4 text-[#e89d79]" />
                         <span>Issued after practical assessment</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <CheckCircle2 className="mt-0.5 h-4 w-4 text-secondary" />
+                        <CheckCircle2 className="mt-0.5 h-4 w-4 text-[#e89d79]" />
                         <span>Valid for sail and/or power</span>
                       </li>
                     </ul>
                   </CardContent>
                 </Card>
 
-                <Card className="border-2 border-primary/10">
+                <Card className="border-2 border-[#061625]/10">
                   <CardContent className="p-6">
-                    <h3 className="mb-3 text-xl font-bold text-primary">SLC (Sailing License & Credentials)</h3>
+                    <h3 className="mb-3 text-xl font-bold text-[#061625]">SLC (Sailing License & Credentials)</h3>
                     <p className="mb-4 text-sm text-muted-foreground">
                       NauticEd's internationally recognized sailing license that combines online theory with practical assessment. Accepted by charter companies worldwide.
                     </p>
                     <ul className="space-y-2 text-sm text-muted-foreground">
                       <li className="flex items-start gap-2">
-                        <CheckCircle2 className="mt-0.5 h-4 w-4 text-secondary" />
+                        <CheckCircle2 className="mt-0.5 h-4 w-4 text-[#e89d79]" />
                         <span>Accepted in 30+ countries</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <CheckCircle2 className="mt-0.5 h-4 w-4 text-secondary" />
+                        <CheckCircle2 className="mt-0.5 h-4 w-4 text-[#e89d79]" />
                         <span>Includes digital logbook</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <CheckCircle2 className="mt-0.5 h-4 w-4 text-secondary" />
+                        <CheckCircle2 className="mt-0.5 h-4 w-4 text-[#e89d79]" />
                         <span>Lifetime validity</span>
                       </li>
                     </ul>
@@ -117,15 +117,15 @@ export default function CatamaranCharterCertificationEuropePage() {
 
             {/* Country-Specific Requirements */}
             <section className="mb-12">
-              <h2 className="mb-6 text-3xl font-bold text-primary">Country-Specific Requirements</h2>
+              <h2 className="mb-6 text-3xl font-bold text-[#061625]">Country-Specific Requirements</h2>
 
               <div className="space-y-4">
-                <Card className="border-2 border-primary/10">
+                <Card className="border-2 border-[#061625]/10">
                   <CardContent className="p-6">
                     <div className="flex items-start gap-4">
-                      <MapPin className="h-6 w-6 text-secondary" />
+                      <MapPin className="h-6 w-6 text-[#e89d79]" />
                       <div>
-                        <h3 className="mb-2 font-bold text-primary">Croatia</h3>
+                        <h3 className="mb-2 font-bold text-[#061625]">Croatia</h3>
                         <p className="text-sm text-muted-foreground">
                           ICC mandatory. Also requires VHF radio license. Croatian authorities actively check credentials during charter check-ins.
                         </p>
@@ -134,12 +134,12 @@ export default function CatamaranCharterCertificationEuropePage() {
                   </CardContent>
                 </Card>
 
-                <Card className="border-2 border-primary/10">
+                <Card className="border-2 border-[#061625]/10">
                   <CardContent className="p-6">
                     <div className="flex items-start gap-4">
-                      <MapPin className="h-6 w-6 text-secondary" />
+                      <MapPin className="h-6 w-6 text-[#e89d79]" />
                       <div>
-                        <h3 className="mb-2 font-bold text-primary">Greece</h3>
+                        <h3 className="mb-2 font-bold text-[#061625]">Greece</h3>
                         <p className="text-sm text-muted-foreground">
                           ICC or equivalent national license required. NauticEd SLC widely accepted by Greek charter companies.
                         </p>
@@ -148,12 +148,12 @@ export default function CatamaranCharterCertificationEuropePage() {
                   </CardContent>
                 </Card>
 
-                <Card className="border-2 border-primary/10">
+                <Card className="border-2 border-[#061625]/10">
                   <CardContent className="p-6">
                     <div className="flex items-start gap-4">
-                      <MapPin className="h-6 w-6 text-secondary" />
+                      <MapPin className="h-6 w-6 text-[#e89d79]" />
                       <div>
-                        <h3 className="mb-2 font-bold text-primary">Spain & Balearics</h3>
+                        <h3 className="mb-2 font-bold text-[#061625]">Spain & Balearics</h3>
                         <p className="text-sm text-muted-foreground">
                           ICC or NauticEd Bareboat Charter Master minimum. Boats over 15m may require additional qualifications.
                         </p>
@@ -162,12 +162,12 @@ export default function CatamaranCharterCertificationEuropePage() {
                   </CardContent>
                 </Card>
 
-                <Card className="border-2 border-primary/10">
+                <Card className="border-2 border-[#061625]/10">
                   <CardContent className="p-6">
                     <div className="flex items-start gap-4">
-                      <MapPin className="h-6 w-6 text-secondary" />
+                      <MapPin className="h-6 w-6 text-[#e89d79]" />
                       <div>
-                        <h3 className="mb-2 font-bold text-primary">France & Corsica</h3>
+                        <h3 className="mb-2 font-bold text-[#061625]">France & Corsica</h3>
                         <p className="text-sm text-muted-foreground">
                           ICC recommended. French charter companies may accept comprehensive sailing resume in lieu of formal certification.
                         </p>
@@ -180,37 +180,37 @@ export default function CatamaranCharterCertificationEuropePage() {
 
             {/* Why Train in the Caribbean */}
             <section className="mb-12">
-              <h2 className="mb-6 text-3xl font-bold text-primary">Why Train in the Caribbean for European Charters?</h2>
+              <h2 className="mb-6 text-3xl font-bold text-[#061625]">Why Train in the Caribbean for European Charters?</h2>
               <p className="mb-6 text-muted-foreground">
                 Our St. Martin catamaran training program provides the perfect foundation for European chartering:
               </p>
 
               <ul className="mb-8 space-y-4">
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="mt-1 h-5 w-5 text-secondary" />
+                  <CheckCircle2 className="mt-1 h-5 w-5 text-[#e89d79]" />
                   <div>
-                    <span className="font-bold text-primary">Consistent Trade Winds:</span>
+                    <span className="font-bold text-[#061625]">Consistent Trade Winds:</span>
                     <span className="text-muted-foreground"> Train in reliable 15-25 knot conditions that build real sailing skills</span>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="mt-1 h-5 w-5 text-secondary" />
+                  <CheckCircle2 className="mt-1 h-5 w-5 text-[#e89d79]" />
                   <div>
-                    <span className="font-bold text-primary">Multi-Island Passages:</span>
+                    <span className="font-bold text-[#061625]">Multi-Island Passages:</span>
                     <span className="text-muted-foreground"> Experience offshore sailing between St. Martin, Anguilla, and St. Barts</span>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="mt-1 h-5 w-5 text-secondary" />
+                  <CheckCircle2 className="mt-1 h-5 w-5 text-[#e89d79]" />
                   <div>
-                    <span className="font-bold text-primary">International Clearances:</span>
+                    <span className="font-bold text-[#061625]">International Clearances:</span>
                     <span className="text-muted-foreground"> Practice customs and immigration procedures between French, Dutch, and British territories</span>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="mt-1 h-5 w-5 text-secondary" />
+                  <CheckCircle2 className="mt-1 h-5 w-5 text-[#e89d79]" />
                   <div>
-                    <span className="font-bold text-primary">Year-Round Training:</span>
+                    <span className="font-bold text-[#061625]">Year-Round Training:</span>
                     <span className="text-muted-foreground"> No seasonal restrictions — train when European waters are too cold</span>
                   </div>
                 </li>
@@ -243,22 +243,22 @@ export default function CatamaranCharterCertificationEuropePage() {
       <section className="bg-muted py-16">
         <div className="container mx-auto px-4">
           <div className="mb-6 text-center">
-            <Link href="/training" className="text-secondary hover:underline">← Back to All Training Programs</Link>
+            <Link href="/training" className="text-[#e89d79] hover:underline">← Back to All Training Programs</Link>
           </div>
-          <h2 className="mb-8 text-center text-2xl font-bold text-primary">Related Articles</h2>
+          <h2 className="mb-8 text-center text-2xl font-bold text-[#061625]">Related Articles</h2>
           <div className="mx-auto grid max-w-4xl gap-6 md:grid-cols-2">
             <Link href="/training/articles/why-st-martin-catamaran-training" className="group">
-              <Card className="h-full border-2 border-primary/10 transition-all group-hover:border-secondary">
+              <Card className="h-full border-2 border-[#061625]/10 transition-all group-hover:border-[#e89d79]">
                 <CardContent className="p-6">
-                  <h3 className="mb-2 font-bold text-primary group-hover:text-secondary">Why St Martin Is Ideal for Advanced Catamaran Training</h3>
+                  <h3 className="mb-2 font-bold text-[#061625] group-hover:text-[#e89d79]">Why St Martin Is Ideal for Advanced Catamaran Training</h3>
                   <p className="text-sm text-muted-foreground">Discover what makes St. Martin the perfect location for offshore sailing training.</p>
                 </CardContent>
               </Card>
             </Link>
             <Link href="/training/articles/nauticed-vs-rya-certification" className="group">
-              <Card className="h-full border-2 border-primary/10 transition-all group-hover:border-secondary">
+              <Card className="h-full border-2 border-[#061625]/10 transition-all group-hover:border-[#e89d79]">
                 <CardContent className="p-6">
-                  <h3 className="mb-2 font-bold text-primary group-hover:text-secondary">NauticEd vs RYA for Catamaran Charter Certification</h3>
+                  <h3 className="mb-2 font-bold text-[#061625] group-hover:text-[#e89d79]">NauticEd vs RYA for Catamaran Charter Certification</h3>
                   <p className="text-sm text-muted-foreground">Compare certification options and find the right path for your sailing goals.</p>
                 </CardContent>
               </Card>
@@ -268,7 +268,7 @@ export default function CatamaranCharterCertificationEuropePage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-primary py-16 text-white">
+      <footer className="bg-[#061625] py-16 text-white">
         <div className="container mx-auto px-4">
           <div className="grid gap-12 md:grid-cols-4">
             <div>
@@ -278,28 +278,28 @@ export default function CatamaranCharterCertificationEuropePage() {
             <div>
               <h3 className="mb-4 font-bold uppercase tracking-wide">Quick Links</h3>
               <ul className="space-y-2 text-white/80">
-                <li><Link href="/bali" className="transition-colors hover:text-secondary">New Bali Catamarans</Link></li>
-                <li><Link href="/training" className="transition-colors hover:text-secondary">Sailing Training</Link></li>
-                <li><Link href="/" className="transition-colors hover:text-secondary">Home</Link></li>
+                <li><Link href="/bali" className="transition-colors hover:text-[#e89d79]">New Bali Catamarans</Link></li>
+                <li><Link href="/training" className="transition-colors hover:text-[#e89d79]">Sailing Training</Link></li>
+                <li><Link href="/" className="transition-colors hover:text-[#e89d79]">Home</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="mb-4 font-bold uppercase tracking-wide">Training Programs</h3>
               <ul className="space-y-2 text-white/80">
-                <li><Link href="/training/day-skipper" className="transition-colors hover:text-secondary">Bareboat Charter Master (BVI)</Link></li>
-                <li><Link href="/training/day-skipper-st-martin" className="transition-colors hover:text-secondary">Bareboat Charter Master (St. Martin)</Link></li>
-                <li><Link href="/training/offshore-passages" className="transition-colors hover:text-secondary">Offshore Passages</Link></li>
+                <li><Link href="/training/day-skipper" className="transition-colors hover:text-[#e89d79]">Bareboat Charter Master (BVI)</Link></li>
+                <li><Link href="/training/day-skipper-st-martin" className="transition-colors hover:text-[#e89d79]">Bareboat Charter Master (St. Martin)</Link></li>
+                <li><Link href="/training/offshore-passages" className="transition-colors hover:text-[#e89d79]">Offshore Passages</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="mb-4 font-bold uppercase tracking-wide">Contact Us</h3>
               <ul className="space-y-3 text-white/80">
                 <li className="flex items-center gap-2">
-                  <Phone className="h-5 w-5 text-secondary" />
+                  <Phone className="h-5 w-5 text-[#e89d79]" />
                   <span>+1 786 246 0809</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <Mail className="h-5 w-5 text-secondary" />
+                  <Mail className="h-5 w-5 text-[#e89d79]" />
                   <span>training@virginislandsyachtbroker.com</span>
                 </li>
               </ul>

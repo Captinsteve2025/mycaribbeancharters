@@ -15,11 +15,11 @@ export default function NauticEdVsRYAPage() {
             <Logo variant="light" />
           </Link>
           <nav className="hidden gap-8 md:flex">
-            <a href="https://virginislandsyachtbroker.com/" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-secondary">Brokerage</a>
-            <Link href="/bali" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-secondary">New Bali</Link>
-            <Link href="/training" className="text-sm font-medium uppercase tracking-wide text-secondary">Training</Link>
-            <Link href="/charter-ownership" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-secondary">Charter Ownership</Link>
-            <Link href="/contact" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-secondary">Contact</Link>
+            <a href="https://virginislandsyachtbroker.com/" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-[#e89d79]">Brokerage</a>
+            <Link href="/bali" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-[#e89d79]">New Bali</Link>
+            <Link href="/training" className="text-sm font-medium uppercase tracking-wide text-[#e89d79]">Training</Link>
+            <Link href="/charter-ownership" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-[#e89d79]">Charter Ownership</Link>
+            <Link href="/contact" className="text-sm font-medium uppercase tracking-wide text-foreground transition-colors hover:text-[#e89d79]">Contact</Link>
           </nav>
           <MobileNav currentPage="Training" variant="light" />
         </div>
@@ -61,11 +61,11 @@ export default function NauticEdVsRYAPage() {
 
             {/* Comparison Table */}
             <section className="mb-12">
-              <h2 className="mb-6 text-3xl font-bold text-primary">Side-by-Side Comparison</h2>
+              <h2 className="mb-6 text-3xl font-bold text-[#061625]">Side-by-Side Comparison</h2>
 
-              <div className="overflow-hidden rounded-xl border-2 border-primary/10">
+              <div className="overflow-hidden rounded-xl border-2 border-[#061625]/10">
                 <table className="w-full">
-                  <thead className="bg-primary text-white">
+                  <thead className="bg-[#061625] text-white">
                     <tr>
                       <th className="p-4 text-left font-bold">Feature</th>
                       <th className="p-4 text-center font-bold">NauticEd SLC</th>
@@ -74,7 +74,7 @@ export default function NauticEdVsRYAPage() {
                   </thead>
                   <tbody className="divide-y divide-gray-100">
                     <tr className="bg-white">
-                      <td className="p-4 font-medium text-primary">Online Theory</td>
+                      <td className="p-4 font-medium text-[#061625]">Online Theory</td>
                       <td className="p-4 text-center">
                         <CheckCircle2 className="mx-auto h-5 w-5 text-green-600" />
                         <span className="text-xs text-muted-foreground">Self-paced, lifetime access</span>
@@ -85,7 +85,7 @@ export default function NauticEdVsRYAPage() {
                       </td>
                     </tr>
                     <tr className="bg-muted/30">
-                      <td className="p-4 font-medium text-primary">Practical Training</td>
+                      <td className="p-4 font-medium text-[#061625]">Practical Training</td>
                       <td className="p-4 text-center">
                         <span className="text-sm">5-7 days</span>
                       </td>
@@ -94,7 +94,7 @@ export default function NauticEdVsRYAPage() {
                       </td>
                     </tr>
                     <tr className="bg-white">
-                      <td className="p-4 font-medium text-primary">ICC Eligible</td>
+                      <td className="p-4 font-medium text-[#061625]">ICC Eligible</td>
                       <td className="p-4 text-center">
                         <CheckCircle2 className="mx-auto h-5 w-5 text-green-600" />
                       </td>
@@ -103,7 +103,7 @@ export default function NauticEdVsRYAPage() {
                       </td>
                     </tr>
                     <tr className="bg-muted/30">
-                      <td className="p-4 font-medium text-primary">European Recognition</td>
+                      <td className="p-4 font-medium text-[#061625]">European Recognition</td>
                       <td className="p-4 text-center">
                         <CheckCircle2 className="mx-auto h-5 w-5 text-green-600" />
                         <span className="text-xs text-muted-foreground">30+ countries</span>
@@ -114,7 +114,7 @@ export default function NauticEdVsRYAPage() {
                       </td>
                     </tr>
                     <tr className="bg-white">
-                      <td className="p-4 font-medium text-primary">Digital Logbook</td>
+                      <td className="p-4 font-medium text-[#061625]">Digital Logbook</td>
                       <td className="p-4 text-center">
                         <CheckCircle2 className="mx-auto h-5 w-5 text-green-600" />
                         <span className="text-xs text-muted-foreground">Automatic tracking</span>
@@ -125,7 +125,7 @@ export default function NauticEdVsRYAPage() {
                       </td>
                     </tr>
                     <tr className="bg-muted/30">
-                      <td className="p-4 font-medium text-primary">Tidal Waters Required</td>
+                      <td className="p-4 font-medium text-[#061625]">Tidal Waters Required</td>
                       <td className="p-4 text-center">
                         <X className="mx-auto h-5 w-5 text-green-600" />
                         <span className="text-xs text-muted-foreground">Not required</span>
@@ -136,7 +136,7 @@ export default function NauticEdVsRYAPage() {
                       </td>
                     </tr>
                     <tr className="bg-white">
-                      <td className="p-4 font-medium text-primary">Caribbean Training</td>
+                      <td className="p-4 font-medium text-[#061625]">Caribbean Training</td>
                       <td className="p-4 text-center">
                         <CheckCircle2 className="mx-auto h-5 w-5 text-green-600" />
                         <span className="text-xs text-muted-foreground">Ideal conditions</span>
@@ -147,7 +147,7 @@ export default function NauticEdVsRYAPage() {
                       </td>
                     </tr>
                     <tr className="bg-muted/30">
-                      <td className="p-4 font-medium text-primary">US Coast Guard Approved</td>
+                      <td className="p-4 font-medium text-[#061625]">US Coast Guard Approved</td>
                       <td className="p-4 text-center">
                         <CheckCircle2 className="mx-auto h-5 w-5 text-green-600" />
                       </td>
@@ -162,11 +162,11 @@ export default function NauticEdVsRYAPage() {
 
             {/* NauticEd Advantages */}
             <section className="mb-12">
-              <h2 className="mb-6 text-3xl font-bold text-primary">When to Choose NauticEd</h2>
+              <h2 className="mb-6 text-3xl font-bold text-[#061625]">When to Choose NauticEd</h2>
 
               <Card className="mb-6 border-2 border-[#47c0d5]">
                 <CardContent className="p-6">
-                  <h3 className="mb-4 text-xl font-bold text-primary">NauticEd SLC is ideal if you:</h3>
+                  <h3 className="mb-4 text-xl font-bold text-[#061625]">NauticEd SLC is ideal if you:</h3>
                   <ul className="space-y-3">
                     <li className="flex items-start gap-3">
                       <CheckCircle2 className="mt-0.5 h-5 w-5 text-[#47c0d5]" />
@@ -195,26 +195,26 @@ export default function NauticEdVsRYAPage() {
 
             {/* RYA Advantages */}
             <section className="mb-12">
-              <h2 className="mb-6 text-3xl font-bold text-primary">When to Choose RYA</h2>
+              <h2 className="mb-6 text-3xl font-bold text-[#061625]">When to Choose RYA</h2>
 
-              <Card className="mb-6 border-2 border-primary/10">
+              <Card className="mb-6 border-2 border-[#061625]/10">
                 <CardContent className="p-6">
-                  <h3 className="mb-4 text-xl font-bold text-primary">NauticEd Bareboat Charter Master is ideal if you:</h3>
+                  <h3 className="mb-4 text-xl font-bold text-[#061625]">NauticEd Bareboat Charter Master is ideal if you:</h3>
                   <ul className="space-y-3">
                     <li className="flex items-start gap-3">
-                      <CheckCircle2 className="mt-0.5 h-5 w-5 text-secondary" />
+                      <CheckCircle2 className="mt-0.5 h-5 w-5 text-[#e89d79]" />
                       <span className="text-muted-foreground">Are UK-based and want to train locally</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <CheckCircle2 className="mt-0.5 h-5 w-5 text-secondary" />
+                      <CheckCircle2 className="mt-0.5 h-5 w-5 text-[#e89d79]" />
                       <span className="text-muted-foreground">Plan to continue to RYA Yachtmaster progression</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <CheckCircle2 className="mt-0.5 h-5 w-5 text-secondary" />
+                      <CheckCircle2 className="mt-0.5 h-5 w-5 text-[#e89d79]" />
                       <span className="text-muted-foreground">Need tidal navigation experience for UK/Northern European sailing</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <CheckCircle2 className="mt-0.5 h-5 w-5 text-secondary" />
+                      <CheckCircle2 className="mt-0.5 h-5 w-5 text-[#e89d79]" />
                       <span className="text-muted-foreground">Prefer the traditional classroom-based approach</span>
                     </li>
                   </ul>
@@ -224,16 +224,16 @@ export default function NauticEdVsRYAPage() {
 
             {/* The Bottom Line */}
             <section className="mb-12">
-              <h2 className="mb-6 text-3xl font-bold text-primary">The Bottom Line</h2>
+              <h2 className="mb-6 text-3xl font-bold text-[#061625]">The Bottom Line</h2>
               <div className="rounded-xl bg-muted p-6">
                 <p className="mb-4 text-muted-foreground">
-                  <strong className="text-primary">For bareboat charter certification,</strong> both NauticEd SLC and NauticEd Bareboat Charter Master are widely accepted by charter companies worldwide. The practical skills are equivalent — the difference is in the delivery.
+                  <strong className="text-[#061625]">For bareboat charter certification,</strong> both NauticEd SLC and NauticEd Bareboat Charter Master are widely accepted by charter companies worldwide. The practical skills are equivalent — the difference is in the delivery.
                 </p>
                 <p className="mb-4 text-muted-foreground">
                   NauticEd offers a more modern, flexible approach with digital tools and doesn't require tidal waters for full certification. RYA offers the traditional pathway with strong UK recognition.
                 </p>
                 <p className="text-muted-foreground">
-                  <strong className="text-primary">Our recommendation:</strong> If you're training in the Caribbean and want charter-ready certification for Mediterranean and worldwide sailing, NauticEd SLC combined with SLC assessment provides everything you need.
+                  <strong className="text-[#061625]">Our recommendation:</strong> If you're training in the Caribbean and want charter-ready certification for Mediterranean and worldwide sailing, NauticEd SLC combined with SLC assessment provides everything you need.
                 </p>
               </div>
             </section>
@@ -264,22 +264,22 @@ export default function NauticEdVsRYAPage() {
       <section className="bg-muted py-16">
         <div className="container mx-auto px-4">
           <div className="mb-6 text-center">
-            <Link href="/training" className="text-secondary hover:underline">← Back to All Training Programs</Link>
+            <Link href="/training" className="text-[#e89d79] hover:underline">← Back to All Training Programs</Link>
           </div>
-          <h2 className="mb-8 text-center text-2xl font-bold text-primary">Related Articles</h2>
+          <h2 className="mb-8 text-center text-2xl font-bold text-[#061625]">Related Articles</h2>
           <div className="mx-auto grid max-w-4xl gap-6 md:grid-cols-2">
             <Link href="/training/articles/catamaran-charter-certification-europe" className="group">
-              <Card className="h-full border-2 border-primary/10 transition-all group-hover:border-secondary">
+              <Card className="h-full border-2 border-[#061625]/10 transition-all group-hover:border-[#e89d79]">
                 <CardContent className="p-6">
-                  <h3 className="mb-2 font-bold text-primary group-hover:text-secondary">How to Get Certified to Charter a Catamaran in Europe</h3>
+                  <h3 className="mb-2 font-bold text-[#061625] group-hover:text-[#e89d79]">How to Get Certified to Charter a Catamaran in Europe</h3>
                   <p className="text-sm text-muted-foreground">Understand the certification requirements for European charter destinations.</p>
                 </CardContent>
               </Card>
             </Link>
             <Link href="/training/articles/skipper-certification-requirements" className="group">
-              <Card className="h-full border-2 border-primary/10 transition-all group-hover:border-secondary">
+              <Card className="h-full border-2 border-[#061625]/10 transition-all group-hover:border-[#e89d79]">
                 <CardContent className="p-6">
-                  <h3 className="mb-2 font-bold text-primary group-hover:text-secondary">What Charter Companies Look for in Skipper Certification</h3>
+                  <h3 className="mb-2 font-bold text-[#061625] group-hover:text-[#e89d79]">What Charter Companies Look for in Skipper Certification</h3>
                   <p className="text-sm text-muted-foreground">Learn what credentials charter companies actually require.</p>
                 </CardContent>
               </Card>
@@ -289,7 +289,7 @@ export default function NauticEdVsRYAPage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-primary py-16 text-white">
+      <footer className="bg-[#061625] py-16 text-white">
         <div className="container mx-auto px-4">
           <div className="grid gap-12 md:grid-cols-4">
             <div>
@@ -299,28 +299,28 @@ export default function NauticEdVsRYAPage() {
             <div>
               <h3 className="mb-4 font-bold uppercase tracking-wide">Quick Links</h3>
               <ul className="space-y-2 text-white/80">
-                <li><Link href="/bali" className="transition-colors hover:text-secondary">New Bali Catamarans</Link></li>
-                <li><Link href="/training" className="transition-colors hover:text-secondary">Sailing Training</Link></li>
-                <li><Link href="/" className="transition-colors hover:text-secondary">Home</Link></li>
+                <li><Link href="/bali" className="transition-colors hover:text-[#e89d79]">New Bali Catamarans</Link></li>
+                <li><Link href="/training" className="transition-colors hover:text-[#e89d79]">Sailing Training</Link></li>
+                <li><Link href="/" className="transition-colors hover:text-[#e89d79]">Home</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="mb-4 font-bold uppercase tracking-wide">Training Programs</h3>
               <ul className="space-y-2 text-white/80">
-                <li><Link href="/training/day-skipper" className="transition-colors hover:text-secondary">Bareboat Charter Master (BVI)</Link></li>
-                <li><Link href="/training/day-skipper-st-martin" className="transition-colors hover:text-secondary">Bareboat Charter Master (St. Martin)</Link></li>
-                <li><Link href="/training/offshore-passages" className="transition-colors hover:text-secondary">Offshore Passages</Link></li>
+                <li><Link href="/training/day-skipper" className="transition-colors hover:text-[#e89d79]">Bareboat Charter Master (BVI)</Link></li>
+                <li><Link href="/training/day-skipper-st-martin" className="transition-colors hover:text-[#e89d79]">Bareboat Charter Master (St. Martin)</Link></li>
+                <li><Link href="/training/offshore-passages" className="transition-colors hover:text-[#e89d79]">Offshore Passages</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="mb-4 font-bold uppercase tracking-wide">Contact Us</h3>
               <ul className="space-y-3 text-white/80">
                 <li className="flex items-center gap-2">
-                  <Phone className="h-5 w-5 text-secondary" />
+                  <Phone className="h-5 w-5 text-[#e89d79]" />
                   <span>+1 786 246 0809</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <Mail className="h-5 w-5 text-secondary" />
+                  <Mail className="h-5 w-5 text-[#e89d79]" />
                   <span>training@virginislandsyachtbroker.com</span>
                 </li>
               </ul>

@@ -73,18 +73,18 @@ export default function BareboatCharterMasterPage() {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-4xl">
-            <h2 className="mb-6 text-center text-4xl font-bold text-primary">What You'll Learn</h2>
+            <h2 className="mb-6 text-center text-4xl font-bold text-[#061625]">What You'll Learn</h2>
             <p className="mb-12 text-center text-lg text-muted-foreground">
               The Bareboat Charter Master certification covers everything you need to confidently
               skipper a yacht on a bareboat charter anywhere in the world.
             </p>
             <div className="grid gap-6 md:grid-cols-2">
-              <Card className="border-2 border-primary/10">
+              <Card className="border-2 border-[#061625]/10">
                 <CardContent className="p-6">
                   <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#e89d79]/10">
                     <Laptop className="h-6 w-6 text-[#e89d79]" />
                   </div>
-                  <h3 className="mb-3 text-xl font-bold text-primary">Online Theory Courses</h3>
+                  <h3 className="mb-3 text-xl font-bold text-[#061625]">Online Theory Courses</h3>
                   <ul className="space-y-2 text-muted-foreground">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="mt-0.5 h-4 w-4 flex-shrink-0 text-[#e89d79]" />
@@ -109,12 +109,12 @@ export default function BareboatCharterMasterPage() {
                   </ul>
                 </CardContent>
               </Card>
-              <Card className="border-2 border-primary/10">
+              <Card className="border-2 border-[#061625]/10">
                 <CardContent className="p-6">
                   <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#e89d79]/10">
                     <Ship className="h-6 w-6 text-[#e89d79]" />
                   </div>
-                  <h3 className="mb-3 text-xl font-bold text-primary">Practical Assessment</h3>
+                  <h3 className="mb-3 text-xl font-bold text-[#061625]">Practical Assessment</h3>
                   <ul className="space-y-2 text-muted-foreground">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="mt-0.5 h-4 w-4 flex-shrink-0 text-[#e89d79]" />
@@ -146,14 +146,14 @@ export default function BareboatCharterMasterPage() {
       {/* Why This Certification */}
       <section className="bg-muted py-20">
         <div className="container mx-auto px-4">
-          <h2 className="mb-12 text-center text-4xl font-bold text-primary">Why Bareboat Charter Master?</h2>
+          <h2 className="mb-12 text-center text-4xl font-bold text-[#061625]">Why Bareboat Charter Master?</h2>
           <div className="grid gap-8 md:grid-cols-3">
             <Card className="border-0 shadow-lg">
               <CardContent className="p-8 text-center">
                 <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[#e89d79]/10">
                   <Globe className="h-8 w-8 text-[#e89d79]" />
                 </div>
-                <h3 className="mb-3 text-xl font-bold text-primary">Globally Recognized</h3>
+                <h3 className="mb-3 text-xl font-bold text-[#061625]">Globally Recognized</h3>
                 <p className="text-muted-foreground">
                   Accepted by charter companies in the Mediterranean, Caribbean, Thailand,
                   Seychelles, and 30+ countries worldwide.
@@ -165,7 +165,7 @@ export default function BareboatCharterMasterPage() {
                 <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[#e89d79]/10">
                   <Award className="h-8 w-8 text-[#e89d79]" />
                 </div>
-                <h3 className="mb-3 text-xl font-bold text-primary">SLC License Eligible</h3>
+                <h3 className="mb-3 text-xl font-bold text-[#061625]">SLC License Eligible</h3>
                 <p className="text-muted-foreground">
                   Upon completion, you qualify for the Sailing License and Credentials (SLC) —
                   the internationally recognized boating license.
@@ -177,7 +177,7 @@ export default function BareboatCharterMasterPage() {
                 <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[#e89d79]/10">
                   <Target className="h-8 w-8 text-[#e89d79]" />
                 </div>
-                <h3 className="mb-3 text-xl font-bold text-primary">Charter Ready</h3>
+                <h3 className="mb-3 text-xl font-bold text-[#061625]">Charter Ready</h3>
                 <p className="text-muted-foreground">
                   Specifically designed for sailors who want to charter independently
                   without a skipper aboard.
@@ -190,12 +190,12 @@ export default function BareboatCharterMasterPage() {
       {/* How It Works */}
       <section className="py-20">
         <div className="container mx-auto px-4">
-          <h2 className="mb-12 text-center text-4xl font-bold text-primary">How It Works</h2>
+          <h2 className="mb-12 text-center text-4xl font-bold text-[#061625]">How It Works</h2>
           <div className="mx-auto max-w-4xl">
             <div className="grid gap-8 md:grid-cols-3">
               <div className="text-center">
                 <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[#061625] text-2xl font-bold text-white">1</div>
-                <h3 className="mb-2 text-xl font-bold text-primary">Complete Online Theory</h3>
+                <h3 className="mb-2 text-xl font-bold text-[#061625]">Complete Online Theory</h3>
                 <p className="text-muted-foreground">
                   Study at your own pace from anywhere. Interactive courses with videos,
                   quizzes, and practical exercises.
@@ -203,7 +203,7 @@ export default function BareboatCharterMasterPage() {
               </div>
               <div className="text-center">
                 <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[#061625] text-2xl font-bold text-white">2</div>
-                <h3 className="mb-2 text-xl font-bold text-primary">Train With MCC</h3>
+                <h3 className="mb-2 text-xl font-bold text-[#061625]">Train With MCC</h3>
                 <p className="text-muted-foreground">
                   Join us in the Caribbean for hands-on practical training
                   aboard a modern Bali catamaran.
@@ -211,7 +211,7 @@ export default function BareboatCharterMasterPage() {
               </div>
               <div className="text-center">
                 <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[#061625] text-2xl font-bold text-white">3</div>
-                <h3 className="mb-2 text-xl font-bold text-primary">Get Certified</h3>
+                <h3 className="mb-2 text-xl font-bold text-[#061625]">Get Certified</h3>
                 <p className="text-muted-foreground">
                   Receive your Bareboat Charter Master certification and apply for
                   your SLC international license.
@@ -237,26 +237,26 @@ export default function BareboatCharterMasterPage() {
                 <form className="space-y-6">
                   <div className="grid gap-6 md:grid-cols-2">
                     <div>
-                      <label className="mb-2 block text-sm font-medium text-primary">First Name *</label>
+                      <label className="mb-2 block text-sm font-medium text-[#061625]">First Name *</label>
                       <input type="text" required placeholder="John" className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm" />
                     </div>
                     <div>
-                      <label className="mb-2 block text-sm font-medium text-primary">Last Name *</label>
+                      <label className="mb-2 block text-sm font-medium text-[#061625]">Last Name *</label>
                       <input type="text" required placeholder="Smith" className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm" />
                     </div>
                   </div>
                   <div className="grid gap-6 md:grid-cols-2">
                     <div>
-                      <label className="mb-2 block text-sm font-medium text-primary">Email *</label>
+                      <label className="mb-2 block text-sm font-medium text-[#061625]">Email *</label>
                       <input type="email" required placeholder="john@example.com" className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm" />
                     </div>
                     <div>
-                      <label className="mb-2 block text-sm font-medium text-primary">Phone</label>
+                      <label className="mb-2 block text-sm font-medium text-[#061625]">Phone</label>
                       <input type="tel" placeholder="+1 (555) 123-4567" className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm" />
                     </div>
                   </div>
                   <div>
-                    <label className="mb-2 block text-sm font-medium text-primary">Sailing Experience</label>
+                    <label className="mb-2 block text-sm font-medium text-[#061625]">Sailing Experience</label>
                     <select className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm">
                       <option value="">Select your experience level</option>
                       <option value="beginner">Beginner - Little to no experience</option>
@@ -266,11 +266,11 @@ export default function BareboatCharterMasterPage() {
                     </select>
                   </div>
                   <div>
-                    <label className="mb-2 block text-sm font-medium text-primary">Preferred Training Dates</label>
+                    <label className="mb-2 block text-sm font-medium text-[#061625]">Preferred Training Dates</label>
                     <input type="text" placeholder="e.g., March 2026, Flexible" className="flex h-11 w-full rounded-[10px] border border-input bg-background px-4 py-2 text-sm" />
                   </div>
                   <div>
-                    <label className="mb-2 block text-sm font-medium text-primary">Message</label>
+                    <label className="mb-2 block text-sm font-medium text-[#061625]">Message</label>
                     <textarea rows={4} placeholder="Tell us about your goals and any questions you have..." className="flex w-full rounded-[10px] border border-input bg-background px-4 py-3 text-sm" />
                   </div>
                   <input type="hidden" name="certification" value="bareboat-charter-master" />
@@ -298,36 +298,36 @@ export default function BareboatCharterMasterPage() {
       {/* Other Certifications */}
       <section className="py-20">
         <div className="container mx-auto px-4">
-          <h2 className="mb-8 text-center text-3xl font-bold text-primary">Other NauticEd Certifications</h2>
+          <h2 className="mb-8 text-center text-3xl font-bold text-[#061625]">Other NauticEd Certifications</h2>
           <div className="grid gap-6 md:grid-cols-4">
             <Link href="/training/nauticed/catamaran-sailing-confidence" className="group">
-              <Card className="h-full border-2 border-primary/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
+              <Card className="h-full border-2 border-[#061625]/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
                 <CardContent className="p-6">
-                  <h3 className="mb-2 font-bold text-primary group-hover:text-[#e89d79]">Catamaran Sailing Confidence</h3>
+                  <h3 className="mb-2 font-bold text-[#061625] group-hover:text-[#e89d79]">Catamaran Sailing Confidence</h3>
                   <p className="text-sm text-muted-foreground">Master cat handling</p>
                 </CardContent>
               </Card>
             </Link>
             <Link href="/training/nauticed/skipper-large-powerboat" className="group">
-              <Card className="h-full border-2 border-primary/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
+              <Card className="h-full border-2 border-[#061625]/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
                 <CardContent className="p-6">
-                  <h3 className="mb-2 font-bold text-primary group-hover:text-[#e89d79]">Skipper Large Powerboat</h3>
+                  <h3 className="mb-2 font-bold text-[#061625] group-hover:text-[#e89d79]">Skipper Large Powerboat</h3>
                   <p className="text-sm text-muted-foreground">For powerboats 27ft+</p>
                 </CardContent>
               </Card>
             </Link>
             <Link href="/training/nauticed/captain-rank" className="group">
-              <Card className="h-full border-2 border-primary/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
+              <Card className="h-full border-2 border-[#061625]/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
                 <CardContent className="p-6">
-                  <h3 className="mb-2 font-bold text-primary group-hover:text-[#e89d79]">Captain Rank</h3>
+                  <h3 className="mb-2 font-bold text-[#061625] group-hover:text-[#e89d79]">Captain Rank</h3>
                   <p className="text-sm text-muted-foreground">Professional level</p>
                 </CardContent>
               </Card>
             </Link>
             <Link href="/training/nauticed/slc-license" className="group">
-              <Card className="h-full border-2 border-primary/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
+              <Card className="h-full border-2 border-[#061625]/10 transition-all group-hover:border-[#e89d79] group-hover:shadow-lg">
                 <CardContent className="p-6">
-                  <h3 className="mb-2 font-bold text-primary group-hover:text-[#e89d79]">SLC License</h3>
+                  <h3 className="mb-2 font-bold text-[#061625] group-hover:text-[#e89d79]">SLC License</h3>
                   <p className="text-sm text-muted-foreground">International boating license</p>
                 </CardContent>
               </Card>
